@@ -27,7 +27,7 @@ Let's take a look at setting up a custom domain for our blog. Now of course ther
 
 First thing we'll need to do is to point the domain to GitHub's servers. So we'll need to edit our DNS records. This is a pretty common setup so just edit the following records.
 
-```
+```plain
   A        @     192.30.252.153
   A        @     192.30.252.154
 CNAME     www    websanova.github.io.
