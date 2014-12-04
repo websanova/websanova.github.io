@@ -50,15 +50,15 @@ Now to do this we'll need to follow a bit of a special setup. So for starters we
 Next we'll have to create a `_layouts` folder which is a default folder Jekyll uses to look for layouts. In there we can create a `default.html` file and put our basic layout inside.
 
 ~~~
-&lt;html>
-&lt;head>
-    &lt;title> {{ page.title }}&lt;/title>
-&lt;/head>
-&lt;body>
-    &lt;h1>{{ page.title }}&lt;/h1>
+<html>
+<head>
+    <title> {{ page.title }}</title>
+</head>
+<body>
+    <h1>{{ page.title }}</h1>
     {{ content }}
-&lt;/body>
-&lt;/html>
+</body>
+</html>
 ~~~
 
 Next we'll create an `index` file in the root of our folder. This file can be either `html` or `md` based on whatever style you wanna follow. This file contains some special syntax at the top that we can use to specify some variables for the page
