@@ -49,7 +49,7 @@ Now to do this we'll need to follow a bit of a special setup. So for starters we
 
 Next we'll have to create a `_layouts` folder which is a default folder Jekyll uses to look for layouts. In there we can create a `default.html` file and put our basic layout inside.
 
-```
+~~~
 &lt;html>
 &lt;head>
     &lt;title> {{ page.title }}&lt;/title>
@@ -59,18 +59,18 @@ Next we'll have to create a `_layouts` folder which is a default folder Jekyll u
     {{ content }}
 &lt;/body>
 &lt;/html>
-```
+~~~
 
 Next we'll create an `index` file in the root of our folder. This file can be either `html` or `md` based on whatever style you wanna follow. This file contains some special syntax at the top that we can use to specify some variables for the page
 
-```
+~~~
 ---
 layout: default
 title: Home
 ---
 
 Hello World!
-```
+~~~
 
 Again, you may inspect my [blog repository](https://github.com/websanova/websanova.github.io) for assistance as I follow a very simple setup.
 
