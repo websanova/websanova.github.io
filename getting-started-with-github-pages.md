@@ -50,15 +50,15 @@ Now to do this we'll need to follow a bit of a special setup. So for starters we
 Next we'll have to create a `_layouts` folder which is a default folder Jekyll uses to look for layouts. In there we can create a `default.html` file and put our basic layout inside.
 
 ```
-<html>
-<head>
-    <title> {{ page.title }}</title>
-</head>
-<body>
-    <h1>{{ page.title }}</h1>
+&lt;html>
+&lt;head>
+    &lt;title> {{ page.title }}&lt;/title>
+&lt;/head>
+&lt;body>
+    &lt;h1>{{ page.title }}&lt;/h1>
     {{ content }}
-</body>
-</html>
+&lt;/body>
+&lt;/html>
 ```
 
 Next we'll create an `index` file in the root of our folder. This file can be either `html` or `md` based on whatever style you wanna follow. This file contains some special syntax at the top that we can use to specify some variables for the page
@@ -72,9 +72,14 @@ title: Home
 Hello World!
 ```
 
-Again, you may inspect my [blog repository]() for assistance as I follow a very simple setup.
+Again, you may inspect my [blog repository](https://github.com/websanova/websanova.github.io) for assistance as I follow a very simple setup.
+
+Now we can just push these files live and we should see our index page. From here you can follow the same pattern for any page you create. To link to them just use the file name. __It's a good idea to use SEO friendly slugs for file names__ becasue of this.
 
 Note that the project root is just like any other website root. So we can drop things like a favicon.ico or folders and files in there and they will get picked up normally.
 
 ## What is Jekyll
 
+I don't really know much about Jekyll other than it's some kind of script with a lot of conventions that will generate some static html pages for you. It has a lot of parameters you can use to specify how you want your pages created so I wil not cover that here.
+
+It also comes as a Ruby Gem which means you can install it locally (with Ruby) and run the script on your pages locally to test them before pushing live to GitHub. A good step to get to eventually to avoid a bunch of fixer commits.
