@@ -1,7 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
-### Welcome
-
-Hello Word
+Home Page ...
