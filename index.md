@@ -19,6 +19,6 @@ Hope you enjoy the new (much simpler) format. As for the old posts I'll probably
 
 Websanova is my personal brand and blog that I use to post articles about web development. This will range from anything to MySQL, PHP, JavaScript, REST, Laravel and anything else in between.
 
-I was for a while heavily intersted in jQuery and writing plugins which you can check out on the <a href="https://github.com">GitHub</a> page.
+I was for a while heavily intersted in jQuery and writing plugins which you can check out on the [GitHub](https://github.com) page.
 
-I've also published a very small guide with publisher <a href="http://in30minutes.com">in30Minutes</a> under the name <a href="http://jquery.in30minutes.com">jQuery Plugin Development in 30 Minutes</a>.
+I've also published a very small guide with publisher [in30Minutes](http://in30minutes.com) under the name [jQuery Plugin Development in 30 Minutes](http://jquery.in30minutes.com).
