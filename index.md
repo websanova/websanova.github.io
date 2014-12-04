@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Welcome
-slug: 
 ---
 
 ### Welcome
