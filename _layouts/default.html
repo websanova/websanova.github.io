@@ -1,14 +1,62 @@
 <!doctype html>
 <html class="base en">
 <head>
-	<title>Websanova :: {{ page.title }}</title>
+	<title>{{ page.title }}</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="robots" content="NOODP,NOYDIR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <meta name="keywords" content="{{ page.keywords }}" />
+    <meta name="description" content="{{ page.description }}" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+	<style>
+		* {box-sizing: border-box;}
+		body {background-color: #f0f0f0;font-size: 12px; font-family: verdana;}
+		h1 {margin-top: 0px;}
+		a {text-decoration: none; color: #3a3a3a;}
+		ul {margin: 0px; padding: 0 0 0 12px;}
+
+		#container {max-width: 1000px; margin: 0 auto;}
+		#header {padding: 10px;}
+
+		#col-left, #col-right {float: right; padding: 10px;}
+		#col-left { width: 100%; }
+		#col-right { width: 100%; font-size: 14px;}
+
+		@media (min-width: 768px) {
+			#col-left { width: 25%; }
+			#col-right { width: 75%; }
+			#header {display: none;}		
+		}
+	</style>
 </head>
-
 <body>
+	<div id="container">
+		<div id="header">
+			<ul>
+				<li><a href="/Websanova"><b>Websanova</b></a></li>
+				<li><a href="#articles"><b>Articles</b></a></li>
+			</ul>
+		</div>
 
-<h1>{{ page.title }}</h1>
+		<div id="col-right">
+			<h1>{{ page.title }}</h1>
 
-{{ content }}
-
+			{{ content }} sdlf sd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdfsd sdlsj fsdl sdlfksa flsafj afkj salf jsdalfka flsa jflsfj asflj sadfkj alfk aslfsd jfsdf
+		</div>
+		<div id="col-left">
+			<a name="articles"></a>
+			<ul>
+				<li><a href="/Websanova"><b>Websanova</b></a></li>
+				<li><a href="/getting-started-with-github-pages">Getting Started With GitHub Pages</a></li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>

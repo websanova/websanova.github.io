@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Getting Started on GitHub Pages
+title: Getting Started With GitHub Pages
 ---
 
 To get started on GitHub Pages...
 
-## Setting up a GitHub Pages Repository
+## Creating GitHub Pages Repository
 
 
 ## Setting up a Custom Domain
