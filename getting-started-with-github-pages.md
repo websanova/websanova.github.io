@@ -28,8 +28,8 @@ Let's take a look at setting up a custom domain for our blog. Now of course ther
 First thing we'll need to do is to point the domain to GitHub's servers. So we'll need to edit our DNS records. This is a pretty common setup so just edit the following records.
 
 ```
-  A        @     192.30.252.153<br/>
-  A        @     192.30.252.154<br/>
+  A        @     192.30.252.153
+  A        @     192.30.252.154
 CNAME     www    websanova.github.io.
 ```
 
@@ -50,25 +50,25 @@ Now to do this we'll need to follow a bit of a special setup. So for starters we
 Next we'll have to create a `_layouts` folder which is a default folder Jekyll uses to look for layouts. In there we can create a `default.html` file and put our basic layout inside.
 
 ```
-&lt;html><br/>
-&lt;head><br/>
-    &lt;title> {{ page.title }}&lt;/title><br/>
-&lt;/head><br/>
-&lt;body><br/>
-    &lt;h1>{{ page.title }}&lt;/h1><br/>
-    {{ content }}<br/>
-&lt;/body><br/>
+&lt;html>
+&lt;head>
+    &lt;title> {{ page.title }}&lt;/title>
+&lt;/head>
+&lt;body>
+    &lt;h1>{{ page.title }}&lt;/h1>
+    {{ content }}
+&lt;/body>
 &lt;/html>
 ```
 
 Next we'll create an `index` file in the root of our folder. This file can be either `html` or `md` based on whatever style you wanna follow. This file contains some special syntax at the top that we can use to specify some variables for the page
 
 ```
-&mdash;&mdash;&mdash;
-layout: default<br/>
-title: Home<br/>
-&mdash;&mdash;&mdash;<br/>
-<br/>
+---
+layout: default
+title: Home
+---
+
 Hello World!
 ```
 
