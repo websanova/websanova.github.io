@@ -52,11 +52,11 @@ Next we'll have to create a `_layouts` folder which is a default folder Jekyll u
 ~~~
 <html>
 <head>
-    <title>{% {{ page.title }} %}</title>
+    <title>{% raw %}{{ page.title }}{% endraw %}</title>
 </head>
 <body>
-    <h1>{% {{ page.title }} %}</h1>
-    {% {{ content }} %}
+    <h1>{% raw %}{{ page.title }}{% endraw %}</h1>
+    {% raw %}{{ content }}{% endraw %}
 </body>
 </html>
 ~~~
