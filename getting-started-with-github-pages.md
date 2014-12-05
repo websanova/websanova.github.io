@@ -5,19 +5,19 @@ keywords: github, pages, gh-pages, repository, jekyll
 description: A short guide describing how to setup a simple blog on GitHub Pages.
 ---
 
-Getting a blog setup on GitHub pages is actually quite simple... once you know how to do it. However I found the basics on this quite confusing and didn't find a concise A to B article to get something basic going. Not to mention throwing in Jekyll in there and figuring out how that ties in.
+Getting a blog setup on GitHub Pages is actually quite simple...once you know how to do it. However I found the basics on this quite confusing and didn't find a concise A to B article to get something basic going. Not to mention throwing in Jekyll in there and figuring out how that ties in.
 
-So without further a do here are a few simple steps to get you from no blog on GitHub Pages to a blog in no time. For starters let's forget about Jekyll for now and not confuse things.
+So without further delay here are a few simple steps to get you from no blog on GitHub Pages in no time. For starters let's not confuse things and forget about Jekyll for now.
 
 ## Creating GitHub Pages Repository
 
 First thing we'll do is setup the repository. the [starter guide](https://pages.github.com/) is pretty good so we'll just do a quick recap here.
 
-When you create an account in GitHub you will have a username. For instance mine is `websanova` which can be found at [https://github.com/websanova](https://github.com/websanova). In that account you will need to create a repository named `<username>.github.io`. So for instance my repository is called [websanova.github.io](http://websanova.github.io).
+When you create an account in GitHub you will have a username. For instance mine is `websanova` which can be found at [https://github.com/websanova](https://github.com/websanova). In that account you will need to create a repository named `<username>.github.io`. So for instance my Github Pages repository is called [websanova.github.io](http://websanova.github.io).
 
 If you do not name it exactly as your account name it will not work. Also __it may take up to 20 minutes for the site to activate__. Actually I think it took closer to about 40 minutes for me so hang tight.
 
-Once setup we should be able to navigate to `http://<username>.github.io` and we can also even view the full repository itself at `https://github.com/<username>/<username>.github.io`. You can view my blog repository directly at [https://github.com/websanova/websanova.github.io](https://github.com/websanova/websanova.github.io).
+Once setup we should be able to navigate to `http://<username>.github.io` and we can also view the full repository itself at `https://github.com/<username>/<username>.github.io`. For instance you can view my blog repository directly at [https://github.com/websanova/websanova.github.io](https://github.com/websanova/websanova.github.io).
 
 Keep in mind that your blog is public and will always run under `http`, so don't keep anything personal in there.
 
@@ -33,7 +33,7 @@ First thing we'll need to do is to point the domain to GitHub's servers. So we'l
 CNAME     www    websanova.github.io.
 ~~~
 
-Next we'll have to create a special file in our blog name `CNAME`. It must be all upercase and be in the root of your folder. This file should contain absolutely nothing else other than your domain name. Feel free to navigate to my [blogs repository](https://github.com/websanova/websanova.github.io) for inspection.
+Next we'll have to create a special file in our blog named `CNAME`. It must be all upercase and be in the root of your folder. This file should contain absolutely nothing else other than your domain name. Feel free to navigate to my [blogs repository](https://github.com/websanova/websanova.github.io) for inspection.
 
 This may take a bit of time to update but should be relatively fast. Now if we go to our domain [http:://websanova.com](http://websanova.com) or [http://www.websanova.com](http://www.websanova.com) they should both point to the blog. Where for now you will still have a 404 Not Found page.
 
@@ -43,7 +43,7 @@ As for email you may want to look into using a service like [mailgun](http://mai
 
 ## Publishing Pages Live
 
-Now we come to actually putting some content live. Here we'll talk about Jekyll a bit. Basically it's a little script that will compile your pages to static html files from the files you create.
+Now we come to actually putting some content live. Here we'll talk about Jekyll a bit. Basically it's a little script engine that will compile your pages to static html files from the files you create.
 
 Now to do this we'll need to follow a bit of a special setup. So for starters we'll need to create a `gh-pages` branch in our repository. So literally just create the branch buy stay in `master` and do nothing else. It's just a holder branch for the static content.
 
@@ -80,6 +80,6 @@ Note that the project root is just like any other website root. So we can drop t
 
 ## What is Jekyll
 
-I don't really know much about Jekyll other than it's some kind of script with a lot of conventions that will generate some static html pages for you. It has a lot of parameters you can use to specify how you want your pages created so I wil not cover that here.
+I don't really know much about Jekyll other than a few basic tags. In fact I don't even use Jekyll locally to build this article or blog initially. But suffice it to say if you follow it's syntax it will convert your pages to static html pages.
 
-It also comes as a Ruby Gem which means you can install it locally (with Ruby) and run the script on your pages locally to test them before pushing live to GitHub. A good step to get to eventually to avoid a bunch of fixer commits.
+For now GitHub does this for you when you push your content live. However itt comes as a Ruby Gem which means you can install it locally (with Ruby) and run the script on your pages locally to test them before pushing live to GitHub. A good step to get to eventually to avoid a bunch of fixer commits.
