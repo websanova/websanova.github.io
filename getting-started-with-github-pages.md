@@ -78,6 +78,25 @@ Now we can just push these files live and we should see our index page. From her
 
 Note that the project root is just like any other website root. So we can drop things like a favicon.ico or folders and files in there and they will get picked up normally.
 
+## Adding a Custom 404 Page.
+
+Adding a custom 404 page is quite simple and the [guide on GitHub](https://help.github.com/articles/custom-404-pages/) is pretty straight forward.
+
+All you need to do is create a file in your project root called either `404.md` or `404.html`.
+
+In the page settings just like on any other page you can set the `layout` and `title`. But you MUST also set an additional `permalink: /404.html` parameter. The page should look like the following:
+
+~~~
+---
+layout: default
+title: 404 Not Found
+permalink: /404.html
+---
+
+The page you have requested is not found.
+~~~
+
+
 ## What is Jekyll
 
 I don't really know much about Jekyll other than a few basic tags. In fact I don't even use Jekyll locally to build this article or blog initially. But suffice it to say if you follow it's syntax it will convert your pages to static html pages.
