@@ -93,7 +93,7 @@ A prototype basically extends an object by providing it methods without having t
 
 ## Setup Class Prototyping - The How
 
-There are two parts to setting up a prototype function.  First we need to create our initial "class" definition, this is meant in the most general sense as it's really just an object.  This initial "class" object will contain the code that is unique to each instance of that object For instance in my [Paint jQuery Plugin](http://www.websanova.com/plugins/websanova/paint) I setup a canvas object similar to something below:
+There are two parts to setting up a prototype function.  First we need to create our initial "class" definition, this is meant in the most general sense as it's really just an object.  This initial "class" object will contain the code that is unique to each instance of that object For instance in my [Paint jQuery Plugin](http://wpaint.websanova.com) I setup a canvas object similar to something below:
 
 ~~~
 function Canvas(settings)
