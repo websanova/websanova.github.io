@@ -147,7 +147,7 @@ Canvas.prototype =
 
     someFunc: function($this)
     {
-        //won't know what &quot;this&quot; is.
+        //won't know what 'this' is.
         //use $this instead passed from the click event
     }
 }
@@ -192,8 +192,8 @@ This one will not always be required but I find myself including it in all of my
 Basically we just want to be able to provide the developer with the ability to set or get existing values from the element using the plugin function like so:
 
 ~~~
-var lineWidth = $(&quot;#container&quot;).wPaint(&quot;lineWidth&quot;);
-$(&quot;#container&quot;).wPaint(&quot;lineWidth&quot;, &quot;5&quot;);
+var lineWidth = $('#container').wPaint('lineWidth');
+$('#container').wPaint('lineWidth', '5');
 ~~~
 
 First we need to attach the object to the element so that we can reference it at a later time.  We would do this at the end of our each loop from above, just before returning the element.
@@ -207,7 +207,7 @@ return this.each(function()
 
     //run some code here
 
-    elem.data(&quot;_wPaint_canvas&quot;, canvas);
+    elem.data('_wPaint_canvas', canvas);
 });
 ~~~
 
@@ -277,7 +277,7 @@ Now a developer can set whatever default they like by doing the following:
 ~~~
 $.fn.wTooltip.defaultSettings.color = 'white';
 
-$(&quot;#container&quot;).wTooltip(); // call pluign normally
+$('#container').wTooltip(); // call pluign normally
 ~~~
 
 This gives your plugin a nice little extra bit of flexibility should you want to provide it.  One could also imagine a hybrid scheme with both global and private defaults where you would extend the settings twice, however that would seem like a very rare and specific scenario.
