@@ -28,6 +28,8 @@
 		#container {max-width: 1000px; margin: 0 auto;}
 		#header {padding: 10px 10px 0 10px; color: #9a9a9a;}
 
+		#date {color: #bababa; margin-bottom: 5px;}
+
 		#col-left, #col-right {float: right; padding: 10px;}
 		#col-left { width: 100%; color: #9a9a9a;}
 		#col-right { width: 100%; word-wrap: break-word;}
@@ -53,6 +55,7 @@
 
 		<div id="col-right">
 			<h1>{{ page.title }}</h1>
+			<div id="date">{{ page.date }}</div>
 			{{ content }}
 		</div>
 		<div id="col-left">
