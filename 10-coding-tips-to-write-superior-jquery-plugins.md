@@ -3,6 +3,7 @@ layout: default
 title: 10 Coding Tips to Write Superior jQuery Plugins
 keywords: jquery, plugins
 description: A guide with some useful tips for writing elegant jQuery plugins.
+date: Dec 16 2014
 ---
 
 Through the process of writing many jQuery plugins I have come to a point where I follow a pretty standard structure and design pattern when developing my plugins.  It for one greatly speeds up my development time as it's just one part of the equation I don't need to think about and can just copy and paste.  I already know how things will be structured and will work for the most part so I can focus on just building out the main code.
