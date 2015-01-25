@@ -18,8 +18,8 @@ I would recommend at least installing the latest version of `wamp` available as 
 
 First you will need to download whatever version of PHP it is you are looking for:
 
-Latest Version: [http://windows.php.net/downloads/releases/](http://windows.php.net/downloads/releases/)
-Archived Versions: [http://windows.php.net/downloads/releases/archives/](http://windows.php.net/downloads/releases/archives/)
+- Latest Version: [http://windows.php.net/downloads/releases/](http://windows.php.net/downloads/releases/)
+- Archived Versions: [http://windows.php.net/downloads/releases/archives/](http://windows.php.net/downloads/releases/archives/)
 
 You will see a bunch of files in there, mostly in arrangements like so:
 
