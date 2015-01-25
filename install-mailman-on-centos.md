@@ -95,10 +95,10 @@ If you want to also remove all existing archives of the mailing list then use th
 $ /usr/lib/mailman/bin/rmlist -a <listname>
 ~~~
 
-You will get a message telling you to remove some entries in the /etc/aliases file.
+You will get a message telling you to remove some entries in the `/etc/aliases` file.
 
 ~~~
-To finish removing your mailing list, you must edit your /etc/aliases (or
+To finish removing your mailing list, you must edit your `/etc/aliases` (or
 equivalent) file by removing the following lines, and possibly running the
 `newaliases' program:
 
@@ -115,7 +115,7 @@ test-mailing-list-subscribe:    "|/usr/lib/mailman/mail/mailman subscribe test-m
 test-mailing-list-unsubscribe:  "|/usr/lib/mailman/mail/mailman unsubscribe test-mailing-list"
 ~~~
 
-Go in to the /etc/aliases file and remove the entries then do an aliases update by running the following:
+Go in to the `/etc/aliases` file and remove the entries then do an aliases update by running the following:
 
 ~~~
 $ newaliases	
