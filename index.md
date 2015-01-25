@@ -8,7 +8,9 @@ date:
 
 ## News
 
-__December 04 2014__ - As you can tell the Websanova Blog looks a bit different. I went through some serious issues on my Linode server. It was complaining about memory so I tried upgrading the "free" migration to the latest and greatest servers. Well apparently the server didn't qualify for free and to get my whole setup redone it was gonna cost $300 big ones. I was about to fork it over but the service from the admins was slow and not that great. They constantly missed things I was asking for.
+__Jan 25 2015__ - I've had a little more time in the new year and have started restoring a lot of the old artcles from my blog. Hopefully will be done a full restore in the next few days. I've also added a [Plugins](/plugins) and [Books](/books) page that list some of my old plugins and my jQuery Plugin Development ebook.
+
+__Dec 4 2014__ - As you can tell the Websanova Blog looks a bit different. I went through some serious issues on my Linode server. It was complaining about memory so I tried upgrading the "free" migration to the latest and greatest servers. Well apparently the server didn't qualify for free and to get my whole setup redone it was gonna cost $300 big ones. I was about to fork it over but the service from the admins was slow and not that great. They constantly missed things I was asking for.
 
 So long story short I ended up switching all my projects over to a Digital Ocean droplet. They have a nice pre built Debian LAMP server with all the latest and greatest including php 5.5 with opcache out of the box. It took a couple hours to get the rest setup and a few more to migrate the projects over. Not bad and saved $300 books or more possibly.
 
