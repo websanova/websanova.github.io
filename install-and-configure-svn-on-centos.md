@@ -82,7 +82,7 @@ LoadModule authz_svn_module   modules/mod_authz_svn.so
     DAV svn
     SVNPath /path/to/<repo_name>
     Authtype Basic
-    AuthName &quot;My Repository&quot;
+    AuthName "My Repository"
     AuthUserFile /path/to/<repo_name>/conf/passwd
     Require valid-user
 </Location>
@@ -114,7 +114,7 @@ LoadModule authz_svn_module   modules/mod_authz_svn.so
     DAV svn
     SVNPath /path/to/<repo_name>
     Authtype Basic
-    AuthName &quot;My Repository&quot;
+    AuthName "My Repository"
     AuthUserFile /path/to/<repo_name>/conf/passwd
     Require valid-user
 </Location>
@@ -123,7 +123,7 @@ LoadModule authz_svn_module   modules/mod_authz_svn.so
     DAV svn
     SVNPath /path/to/<repo_name2>
     Authtype Basic
-    AuthName &quot;My Repository 2&quot;
+    AuthName "My Repository 2"
     AuthUserFile /path/to/<repo_name>/conf/passwd
     Require valid-user
 </Location>	
