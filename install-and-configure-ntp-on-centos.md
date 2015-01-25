@@ -7,7 +7,6 @@ date: Jul 4 2011
 ---
 
 This is a simple tutorial on how to install and configure the NTP service to make sure your clock is accurate and synched on your system.
-<!--more-->
 
 ### Install NTP
 
