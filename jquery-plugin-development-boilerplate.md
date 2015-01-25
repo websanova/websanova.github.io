@@ -6,7 +6,7 @@ description: This article goes over the Websanova jQuery plugin development boil
 date: Mar 15 2012
 ---
 
-The following is a great starting boilerplate template to use when creating a jQuery plugin.  It contains all the major pieces you will need to build out and provide functionality for your plugins.  I've used it to create many plugins and it has been a working progress for over two years as such I've worked out many kinks in it allowing me to greatly speed up my development. <!--more-->
+The following is a great starting boilerplate template to use when creating a jQuery plugin.  It contains all the major pieces you will need to build out and provide functionality for your plugins.  I've used it to create many plugins and it has been a working progress for over two years as such I've worked out many kinks in it allowing me to greatly speed up my development.
 
 ### Resources
 
