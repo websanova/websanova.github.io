@@ -13,25 +13,25 @@ Rather then just give a list of command and what they do, in the section I wante
 This is a brief overview of the commands that you will learn about in this tutorial.
 
 ~~~
-svnadmin create     #create a new repository
-svn info            #lists the information for the repository
-svn mkdir           #make a directory in the repository
-svn checkout        #gets a copy of the repository and puts it under version control
-svn export          #get something from repository (will not be under version control)
-svn import          #put something into repository
-svn commit          #find all changes and put them into the repository
-svn status          #shows a list of changes
-svn status -u       #shows a list of changes in the repository that don't exist in my copy
-svn add             #mark a file to be added to the repository
-svn move            #move something in the repository from one spot to another
-svn delete          #delete something from the repository
-svn rename          #basically a move and a delete done in one step
-svn copy            #copy something in the repository
-svn log             #shows a list of commit messages
-svn list            #display contents of repository directory
-svn update          #update my checked out copy to the whatever is in the repository
-svn update -r       #update to a specific version of the repository
-svn diff            #check difference between files
+svnadmin create #create a new repository
+svn info        #lists the information for the repository
+svn mkdir       #make a directory in the repository
+svn checkout    #gets a copy of the repository and puts it under version control
+svn export      #get something from repository (will not be under version control)
+svn import      #put something into repository
+svn commit      #find all changes and put them into the repository
+svn status      #shows a list of changes
+svn status -u   #shows a list of changes in the repository that don't exist in my copy
+svn add         #mark a file to be added to the repository
+svn move        #move something in the repository from one spot to another
+svn delete      #delete something from the repository
+svn rename      #basically a move and a delete done in one step
+svn copy        #copy something in the repository
+svn log         #shows a list of commit messages
+svn list        #display contents of repository directory
+svn update      #update my checked out copy to the whatever is in the repository
+svn update -r   #update to a specific version of the repository
+svn diff        #check difference between files
 ~~~
 
 ### Creating SVN Repository
