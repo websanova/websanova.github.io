@@ -71,7 +71,7 @@ Finally zip / archive the files.  I like to name my archive after the version nu
 
 I always have to force myself to do this one as there is a tendency to kind of skip it or put it off for "later".  Updating your docs only takes a few minutes in most cases and although it's a total chore it's something that should be done regularly for others to understand what is going on with your code.
 
-Samples of site docs here: [jQuery Tooltip](http://wtooltip.websanova.com) | [jQuery Color Picker](http://wcolorpicker.websanova.com)
+Samples of site docs here: [jQuery Tooltip](http://wtooltip.websanova.com), [jQuery Color Picker](http://wcolorpicker.websanova.com)
 
 ### Document - Site Demo
 
