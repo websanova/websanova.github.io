@@ -6,7 +6,7 @@ description: Article about how to implement an accurate FPS game timer in JavaSc
 date: May 17 2012
 ---
 
-This week I decided to revisit a game I had made a long time ago using HTML5 canvas called Blocknik, a Tetris style game I made to learn some HTML5 and how to use canvas.  A buddy of mine wanted to get it into the app store for the iPad so I did a little overhaul of it, specifically with the timer.
+This week I decided to revisit a game I had made a long time ago using HTML5 canvas called [Blocknik](http://blocknik.websanova.com), a Tetris style game I made to learn some HTML5 and how to use canvas.  A buddy of mine wanted to get it into the app store for the iPad so I did a little overhaul of it, specifically with the timer.
 
 Originally when I had written it I used what made the most sense to me at the time, basically you set your frame rate (30fps), divide that by 1000 milliseconds for one second and you get your interval between game loops, approximately 33.33 milliseconds.
 
