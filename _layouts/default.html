@@ -28,7 +28,7 @@
 		#container {max-width: 1000px; margin: 0 auto;}
 		#header {padding: 10px 10px 0 10px; color: #9a9a9a;}
 
-		#date {color: #bababa; margin-bottom: 5px;}
+		#date {display:block; color: #bababa; margin-bottom: 5px;}
 
 		#col-left, #col-right {float: right; padding: 10px;}
 		#col-left { width: 100%; color: #9a9a9a;}
@@ -70,7 +70,7 @@
 
 		<div id="col-right">
 			<h1>{{ page.title }}</h1>
-			<div id="date">{{ page.date }}</div>
+			<time id="date">{{ page.date }}</time>
 			{{ content }}
 
 			<!-- google adsense -->
@@ -85,6 +85,7 @@
 				<li><a href="http://github.com/websanova"><b>GitHub</b></a></li>
 				<li><a href="/getting-started-with-github-pages">Getting Started With GitHub Pages</a></li>
 				<li><a href="/10-coding-tips-to-write-superior-jquery-plugins">10 Coding Tips to Write Superior jQuery Plugins</a></li>
+				<li><a href="/install-and-configure-apache-on-centos">Install and Configure Apache on CentOS</a></li>
 				<li><a href="/postgres-dump-to-csv">Postgres Dump to CSV</a></li>
 			</ul>
 		</div>

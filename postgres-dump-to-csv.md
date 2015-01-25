@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Postgres dump to CSV
-keywords: github, pages, gh-pages, repository, jekyll
+keywords: postgres, csv, dump
 description: Postgres dump database to CSV format
 date: Oct 16 2010
 ---
