@@ -10,7 +10,7 @@ I recently wrote an article called [Extending JavaScript - The Right Way](/exten
 
 ### Extending the Prototype
 
-My original beef with the prototype was in the fact that when you extended an object type like `String` it automatically had those properties and they could be seen if you iterated through a string using a 'for in` loop.
+My original beef with the prototype was in the fact that when you extended an object type like `String` it automatically had those properties and they could be seen if you iterated through a string using a `for in` loop.
 
 ~~~
 String.prototype.test = function(){ return "test" }
