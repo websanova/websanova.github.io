@@ -26,7 +26,7 @@ www.pixanova.com
 
 However in a company environment where you have much larger projects and many brands its usually a good idea to create separate repositories for each major project.  You will however see this implemented in different ways, where a particular brand within a company may have multiple sub folders representing different portions of each brand or products.
 
-#### Repository 1 (duchnik.com):</b>	
+#### Repository 1 (duchnik.com):
 
 ~~~
 www.duchnik.com
@@ -40,7 +40,7 @@ DownloadManager
     /branches
 ~~~
 
-#### Repository 2 (websanova):</b>
+#### Repository 2 (websanova):
 
 ~~~
 www.websanova.com
@@ -71,7 +71,7 @@ www.duchnik.com
         /version_1.0.0
 ~~~
 
-At this point typically your trunk and version_1.0.0 will be exact copies of each other.  Now you continue developing and adding new features, you eventually decide you want to release a new version which includes some awesome new features.  You then would tag it again, but this time increment the version number like so:
+At this point typically your trunk and `version_1.0.0` will be exact copies of each other.  Now you continue developing and adding new features, you eventually decide you want to release a new version which includes some awesome new features.  You then would tag it again, but this time increment the version number like so:
 
 ~~~
 www.duchnik.com
