@@ -53,7 +53,7 @@ Adding password for user <username>
 ~~~	
 
 You can continue to add more users to the file with the following command:	
-\
+
 ~~~
 $ htpasswd /path/to/<repo_name>/conf/passwd <username>
 ~~~
