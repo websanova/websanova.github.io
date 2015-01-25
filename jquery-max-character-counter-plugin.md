@@ -36,7 +36,7 @@ $("#field").maxChars(200);
 
 ### Set Multiple Elements
 
-We can also use the methods above to set multiple fields at the same time.  As long as there is a matching "_counter" id it will use it.
+We can also use the methods above to set multiple fields at the same time.  As long as there is a matching `_counter` id it will use it.
 
 ~~~
 <textarea id="field1" class="field"></textarea>
