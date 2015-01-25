@@ -34,20 +34,20 @@ You can also just look at one device at a time by using the `-p <device>` option
 $ iostat -p /dev/sda
 ~~~
 
-To display only CPU usage use the -c option and to display only the device utilization report use the -d option.
+To display only CPU usage use the -c option and to display only the device utilization report use the `-d` option.
 
 ~~~
 $ iostat -c
 $ iostat -d
 ~~~
 
-To display the information in kilobytes per second rather then blocks per second use the -k option.
+To display the information in kilobytes per second rather then blocks per second use the `-k` option.
 
 ~~~
 $ iostat -k
 ~~~
 
-To display extended statistics use -x option.
+To display extended statistics use `-x` option.
 
 ~~~
 $ iostat -x
