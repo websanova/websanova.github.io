@@ -12,4 +12,4 @@ Great video with Steve Jobs reflecting on what is most important in life. This i
 
 It’s true in a sense when you think about it. Only a few hundred hears ago people weren’t nearly as educated or had access to the sorts of information we have today. Yet they managed to build the modern world we live in. This really blows any sense of inferiority you may have about yourself and replaces it with only excuses.
 
-<iframe width="560" height="315" src="/http://www.youtube.com/embed/kYfNvmF0Bqw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/kYfNvmF0Bqw" frameborder="0" allowfullscreen=""></iframe>
