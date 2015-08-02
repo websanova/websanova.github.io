@@ -14,7 +14,7 @@ I was not able to find a simple concise guide on setting up Grunt as most of the
 
 Grunt requires you to install nodejs to install Grunt itself and it’s plugins.
 
-* [http://nodejs.org/download/](Download Node.js)
+* [Download Node.js](http://nodejs.org/download)
 
 ## Install Grunt
 
@@ -32,7 +32,7 @@ $ npm install -g grunt-cli
 
 ## package.json
 
-Your project will require a file called `package.json` which will contain some information Grunt will use when running tasks. The key part here is the `dependencies` section which makes it easy for anyone else working on your project to install the appropriate modules required for the project. Here is a sample from my [https://github.com/websanova/js-url](js-url) project.
+Your project will require a file called `package.json` which will contain some information Grunt will use when running tasks. The key part here is the `dependencies` section which makes it easy for anyone else working on your project to install the appropriate modules required for the project. Here is a sample from my [js-url](https://github.com/websanova/js-url) project.
 
 ~~~
 {
@@ -67,7 +67,7 @@ $ npm install
 
 Note that you may get a warning here about `package.json` but don’t worry about that.
 
-From here we can add or remove dependencies and I recommend looking at the [http://gruntjs.com/plugins](Grunt plugins) page for a full listing of plugins available along with instructions on how to use each one.
+From here we can add or remove dependencies and I recommend looking at the [Grunt plugins](http://gruntjs.com/plugins) page for a full listing of plugins available along with instructions on how to use each one.
 
 ## Ignoring Modules
 
@@ -80,9 +80,9 @@ npm-debug.txt
 
 ## Setting up a Gruntfile
 
-The `gruntfile.js` is where you will setup how the plugins will work and which plugins to execute. When you run `grunt.cmd` it will automatically look for this file and run it accordingly. Note that in previous version this file may have simply been named `grunt.js` so a rename may be necessary. Below is a sample Grunt file that matches the `package.json` file above from my [https://github.com/websanova/js-url](js-url) project.
+The `gruntfile.js` is where you will setup how the plugins will work and which plugins to execute. When you run `grunt.cmd` it will automatically look for this file and run it accordingly. Note that in previous version this file may have simply been named `grunt.js` so a rename may be necessary. Below is a sample Grunt file that matches the `package.json` file above from my [js-url](https://github.com/websanova/js-url) project.
 
-The key thing to note in the sample below is the `loadNpmTasks` which are your plugin names and should match your dependencies (if you plan to execute them). You will notice small configurations for each plugin. The best way to find out how to configure your plugins is to view the [http://gruntjs.com/plugins](Grunt plugins) page for detailed information on how to configure that plugin.
+The key thing to note in the sample below is the `loadNpmTasks` which are your plugin names and should match your dependencies (if you plan to execute them). You will notice small configurations for each plugin. The best way to find out how to configure your plugins is to view the [Grunt plugins](http://gruntjs.com/plugins) page for detailed information on how to configure that plugin.
 
 ~~~
 module.exports = function(grunt) {
