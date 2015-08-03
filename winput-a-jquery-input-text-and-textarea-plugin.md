@@ -11,6 +11,6 @@ This is a simple plugin for `text` boxes and `textarea` inputs that gives us cle
 * [wInput Demo](http://winput.websanova.com/)
 * [wInput Download](https://github.com/websanova/wInput/tags)
 * [wInput Documentation](https://github.com/websanova/wInput#winputjs)
-* [wInput Issues](https://github.com/websanova/wPinput/issues)
+* [wInput Issues](https://github.com/websanova/wInput/issues)
 
 It is far from a necessary plugin but it also comes wrapped with some basic CSS for inputs and labels that will allow you to quickly pop this plugin into your web app and start setting up some nice looking forms.
