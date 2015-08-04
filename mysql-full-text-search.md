@@ -120,6 +120,6 @@ This will give us a quick `BOOLEAN` search and then order the results based on t
 
 Overall you should see considerable performance improvement when using `FULLTEXT` over `LIKE` without any additional setup. Likewise with `QUERY EXPANSION` you will also see significant improvements. Keep in mind adding QUERY EXPANSION will slow us down a bit for the added lookups but not too much.
 
-Conclusion
+## Conclusion
 
 In the end it depends what you’re trying to achieve. There are many things to tweak and adjust depending on what columns you want to search and how you want to order relevance. For the most part it’s best to use the `NATURAL` for `relevance` combined with `BOOLEAN` approach. This typically will run the fastest.

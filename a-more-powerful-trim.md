@@ -10,7 +10,7 @@ I came across the situation the other day where I needed to trim a string. Howev
 
 You can get the function on our [JavaScript Extensions Project](https://github.com/websanova/wExtensions) page.
 
-Examples
+## Examples
 
 ~~~
 '   hello world   '.trimChar();    // 'hello world'
