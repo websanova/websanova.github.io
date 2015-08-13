@@ -6,8 +6,6 @@ description: List of solutions for codility lessons in php.
 date: Aug 13 2015
 ---
 
-#Unofficial Codility Programmer Lesson Solutions
-
 This is a list of my unofficial [codility lesson](https://codility.com/programmers/lessons) solutions in php.
 
 ## Lesson 1 :: Time Complexity

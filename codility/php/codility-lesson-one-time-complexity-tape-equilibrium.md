@@ -6,8 +6,6 @@ description: PHP solution for lesson one, time complexity, tape equilibrium prog
 date: Aug 13 2015
 ---
 
-# Codility Lesson One :: Time Complexity :: Tape Equilibrium
-
 * [Link to test](https://codility.com/demo/take-sample-test/tape_equilibrium/)
 
 ## Lazy Solution
