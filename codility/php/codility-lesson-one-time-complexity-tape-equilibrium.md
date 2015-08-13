@@ -31,7 +31,7 @@ function solution($A) {
 
 ## Efficient Solution
 
-A more efficient solution is to just to preset totals for `front` and `back and then subtract and add the current number in the array. This will avoid the slice and sum each time.
+A more efficient solution is to just to preset totals for `front` and `back` and then subtract and add the current number in the array. This will avoid the `array_slice` and `array_sum` each time.
 
 ~~~
 function solution($A) {
