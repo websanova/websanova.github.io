@@ -6,7 +6,7 @@ description: PHP solution for lesson one, time complexity, tape equilibrium prog
 date: Aug 13 2015
 ---
 
-* [Link to test](https://codility.com/demo/take-sample-test/tape_equilibrium/)
+* [Link to test](https://codility.com/demo/take-sample-test/tape_equilibrium)
 
 ## Lazy Solution
 

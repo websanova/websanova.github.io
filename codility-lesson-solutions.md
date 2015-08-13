@@ -10,7 +10,7 @@ This is a list of my unofficial [codility lesson](https://codility.com/programme
 
 ## Lesson 1 :: Time Complexity
 
+* Frog Jmp: [php](/codility/php/codility-lesson-one-time-complexity-frog-jmp)
+* Perm Missing Elem: [php](/codility/php/codility-lesson-one-time-complexity-perm-missing-elem)
 * Tape Equilibrium: [php](/codility/php/codility-lesson-one-time-complexity-tape-equilibrium)
-* Perm Missing Elem: []()
-* Frog Jmp: []()
 
