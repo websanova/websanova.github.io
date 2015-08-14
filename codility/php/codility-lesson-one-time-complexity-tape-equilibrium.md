@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Codility Lesson One Time Complexity Tape Equilibrium Solution
+title: "Codility Lesson One :: Time Complexity :: Tape Equilibrium Solution"
 keywords: codility, lesson, one, time, complexity, tapequilibrium, tape, equilibrium, solution
 description: PHP solution for lesson one, time complexity, tape equilibrium programming question.
 date: Aug 13 2015

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Codility Lesson Two Counting Elements Perm Check Solution
+title: "Codility Lesson Two :: Counting Elements :: Perm Check Solution"
 keywords: codility, lesson, two, counting, elements, permcheck, perm, check, solution
 description: PHP solution for lesson two, counting elements, perm check programming question.
 date: Aug 14 2015

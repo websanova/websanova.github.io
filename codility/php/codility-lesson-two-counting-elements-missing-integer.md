@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Codility Lesson Two Counting Elements Missing Integer Solution
+title: "Codility Lesson Two :: Counting Elements :: Missing Integer Solution"
 keywords: codility, lesson, two, counting, elements, missinginteger, missing, integer, solution
 description: PHP solution for lesson two, counting elements, missing integer programming question.
 date: Aug 14 2015

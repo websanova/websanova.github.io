@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Codility Lesson Two Counting Elements Max Counters Solution
+title: "Codility Lesson Two :: Counting Elements :: Max Counters Solution"
 keywords: codility, lesson, two, counting, elements, maxcounters, max, counters, solution
 description: PHP solution for lesson two, counting elements, max counters programming question.
 date: Aug 14 2015
@@ -37,7 +37,7 @@ function solution($N, $A)
 
 ## Efficient Solution
 
-We already keep track of the `max` value so we can actually use that in real time. We can replace our fill with another `max` 
+We already keep track of the `$max_curr` value so we can actually use that in real time. We can replace our fill with another `$max` value. Then in our loop before an increment we just just the max and update it. Finally at the end we will have to update any missing elements to the upper `$max` bound.
 
 ~~~
 function solution($N, $A)
