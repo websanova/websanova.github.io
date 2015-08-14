@@ -13,7 +13,8 @@ date: Aug 13 2015
 The first thing that comes to mind is to just use `array_sum` and `array_slice`. This will loop through but will perform a lot of sum and slice calculations. We can make it a bit more efficient quite easily.
 
 ~~~
-function solution($A) {
+function solution($A)
+{
     $min = null;
     $size = sizeof($A);
     
