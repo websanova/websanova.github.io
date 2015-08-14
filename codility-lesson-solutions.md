@@ -10,6 +10,8 @@ date: Aug 13 2015
 
 This is a list of my unofficial [codility lesson](https://codility.com/programmers/lessons) solutions in php.
 
+The asterisk (<i class="star">*</i>) indicates difficulty.
+
 ## Lesson 1 :: Time Complexity
 
 * Tape Equilibrium: <i class="star">*</i> [php](/codility/php/codility-lesson-one-time-complexity-tape-equilibrium)
