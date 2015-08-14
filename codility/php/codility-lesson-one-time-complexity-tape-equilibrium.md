@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Codility Lesson One Time Complexity Tape Equilibrium Soluion
-keywords: codility, lesson, one, time, complexity, tape, equilibrium, solution
+title: Codility Lesson One Time Complexity Tape Equilibrium Solution
+keywords: codility, lesson, one, time, complexity, tapequilibrium, tape, equilibrium, solution
 description: PHP solution for lesson one, time complexity, tape equilibrium programming question.
 date: Aug 13 2015
 ---
@@ -47,7 +47,7 @@ function solution($A) {
         $back -= $A[$i];
         $diff = abs($front - $back);
     
-        if ( $diff < $min) {
+        if ($diff < $min) {
             $min = $diff;
         }
     }

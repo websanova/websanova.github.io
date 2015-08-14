@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Codility Lesson One Time Complexity Perm Missing Elem Soluion
-keywords: codility, lesson, one, time, complexity, perm, missing, elem, element, solution
+keywords: codility, lesson, one, time, complexity, permmissingelem, perm, missing, elem, element, solution
 description: PHP solution for lesson one, time complexity, perm missing elem programming question.
 date: Aug 13 2015
 ---
