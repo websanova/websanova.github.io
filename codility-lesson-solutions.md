@@ -6,7 +6,7 @@ description: List of solutions for codility lessons in php.
 date: Aug 13 2015
 ---
 
-<style>.star {font-size: 20px; color:red;}</style>
+<style>.star {font-size: 16px; color:red; vertical-align:middle;}</style>
 
 This is a list of my unofficial [codility lesson](https://codility.com/programmers/lessons) solutions in php.
 
