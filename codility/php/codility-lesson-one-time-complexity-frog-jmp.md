@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Codility Lesson One Time Complexity Frog Jmp Solution
+title: "Codility Lesson One :: Time Complexity :: Frog Jmp Solution"
 keywords: codility, lesson, one, time, complexity, frogjmp, frog, jmp, jump, element, solution
 description: PHP solution for lesson one, time complexity, frog jmp programming question.
 date: Aug 13 2015
