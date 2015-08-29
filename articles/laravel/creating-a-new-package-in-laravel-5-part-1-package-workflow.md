@@ -14,8 +14,6 @@ date: Aug 10 2015
 * [Creating a Laravel 5.x Package :: Part 5 - Unit Testing](/creating-a-new-package-in-laravel-5-part-5-unit-testing)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
-# Creating a Laravel 5.x Package :: Part 1 - Package Workflow
-
 ## Intro
 
 I see lots of tutorials jumping right into development, but let's start with some simple setup. You'll probably want to keep your project in source control and although you may develop for current version 5.1.x for instance. The speed at which Laravel is updating means you will probably need to test for multiple versions in the near future. A few questions you will probably ask yourself.
