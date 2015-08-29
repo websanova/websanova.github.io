@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: master
 title: "Creating a Laravel 5.x Package :: Part 2 - Basic Development"
 keywords: php, laravel, package, creating, development, controller, view, routes, service provider, service, provider, facade, websanova
 description: In Part 2 we cover some basic package development. We cover, controllers, views and routes and get some working code up and running.
 permalink: /laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views.html
-date: Aug 11 2015
+date: Aug 26 2015
 ---
 
 * [Creating a Laravel 5.x Package :: Part 1 - Package Workflow](/creating-a-new-package-in-laravel-5-part-1-package-workflow)

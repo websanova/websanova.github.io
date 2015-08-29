@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: master
 title: "Creating a Laravel 5.x Package :: Part 5 - Unit Testing"
 keywords: php, laravel, package, unit, testing, websanova
 description: In Part 5 we cover a neglected area in package development. If we want others contributing fixes and updates to our package then unit testing will become crucial.
 permalink: /laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing.html
-date: Aug 14 2015
+date: Aug 29 2015
 ---
 
 * [Creating a Laravel 5.x Package :: Part 1 - Package Workflow](/creating-a-new-package-in-laravel-5-part-1-package-workflow)
