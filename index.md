@@ -27,13 +27,3 @@ Websanova is my personal brand and blog that I use to post articles about web de
 I was for a while heavily interested in jQuery and writing plugins which you can check out on the [GitHub](https://github.com) page.
 
 I've also published a very small guide with publisher [in30Minutes](http://in30minutes.com) under the name [jQuery Plugin Development in 30 Minutes](http://jquery.in30minutes.com).
-
-{% for post in paginator.posts %}
-  <h1><a href="">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.description }}
-  </div>
-{% endfor %}
