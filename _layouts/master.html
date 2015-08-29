@@ -44,6 +44,10 @@
 			padding: 0 20px 20px 20px;
 		}
 
+		#date {
+			color: #cacaca;
+		}
+
 		#content {
 			margin: 15px 0;
 		}
@@ -63,7 +67,7 @@
 	<div id="container">
 		<h1>{{ page.title }}</h1>
 
-		<div id="date">{{ page.date }}</div>
+		<time id="date">{{ page.date }}</time>
 
 		<div id="content">
 			{{ content }}
