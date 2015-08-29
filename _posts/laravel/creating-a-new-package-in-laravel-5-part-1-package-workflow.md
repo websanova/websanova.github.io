@@ -16,7 +16,7 @@ date: Aug 10 2015
 
 ## Intro
 
-I see lots of tutorials jumping right into development, but let's start with some simple setup. You'll probably want to keep your project in source control and although you may develop for current version 5.1.x for instance. The speed at which Laravel is updating means you will probably need to test for multiple versions in the near future. A few questions you will probably ask yourself.
+I see lots of tutorials jumping right into development, but let's start with some simple setup. You'll probably want to keep your project in source control and although you may develop for current version `5.1.x` for instance. The speed at which Laravel is updating means you will probably need to test for multiple versions in the near future. A few questions you will probably ask yourself.
 
 * Where do I keep all my packages?
 * How to deal with multiple repositories (GitHub)?
