@@ -26,8 +26,8 @@ To start we can create a `/src/config` directory to store our config files. Typi
 // src/config/main.php
 
 return [
-	'hello' => 'Hello',
-	'world' => 'World',
+    'hello' => 'Hello',
+    'world' => 'World',
 ];
 ~~~
 
@@ -50,8 +50,8 @@ And a quick route to test:
 
 ~~~
 Route::get('demo/config', function () {
-	return config('websanova-demo-main.hello') . 
-		   config('websanova-demo-main.world');
+    return config('websanova-demo-main.hello') . 
+           config('websanova-demo-main.world');
 });
 
 ~~~
