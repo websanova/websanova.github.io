@@ -14,7 +14,7 @@ page: true
     #search input, #search button {height: 30px;}
 </style>
 
-<h3>&nbsp;</h3>
+<h5>&nbsp;</h5>
 
 <form id="search" action="/search">
     <input name="q" type="text" placeholder="Search Websanova" />
