@@ -7,11 +7,11 @@ permalink: /laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-
 date: Aug 27 2015
 ---
 
-* [Creating a Laravel 5.x Package :: Part 1 - Package Workflow](/creating-a-new-package-in-laravel-5-part-1-package-workflow)
-* [Creating a Laravel 5.x Package :: Part 2 - Controllers, Routes and Views](/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views)
-* [Creating a Laravel 5.x Package :: Part 3 - Config and Asset Publishing](/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
-* [Creating a Laravel 5.x Package :: Part 4 - Database, Migrations and Seeding](/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
-* [Creating a Laravel 5.x Package :: Part 5 - Unit Testing](/creating-a-new-package-in-laravel-5-part-5-unit-testing)
+* [Part 1 - Package Workflow](/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow)
+* [Part 2 - Controllers, Routes and Views](/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views)
+* [Part 3 - Config and Asset Publishing](/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
+* [Part 4 - Database, Migrations and Seeding](/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
+* [Part 5 - Unit Testing](/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
 ## Intro
