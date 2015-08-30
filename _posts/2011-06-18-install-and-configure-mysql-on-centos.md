@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: Install and Configure MySQL on CentOS
 keywords: install, configure, mysql, centos
 description: Article covers installing and configuring MySQL Database Server on CentOS Linux.
 date: Jun 18 2011
+permalink: /blog/mysql/install-and-configure-mysql-on-centos.html
 ---
 
 This tutorial covers installing MySQL server and client, as well as some basic configuration to get you up and running.

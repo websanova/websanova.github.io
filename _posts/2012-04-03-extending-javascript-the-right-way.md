@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: master
 title: Extending JavaScript - The Right Way
 keywords: extending, javascript, right, way
 description: An article highlighting how to extend JavaScript correctly to avoid issues with namespacing and the global object scope.
 date: Apr 3 2012
+permalink: /blog/javascript/extending-javascript-the-right-way.html
+redirect_from: /tutorials/javascript/extending-javascript-the-right-way.html
 ---
 
 JavaScript comes with a lot of great functionality built in, but what if there is a function you need which is missing.  How can we build them in seamlessly in an elegant way that extends the functionality of our beloved JavaScript.  The following will outline a couple methods to extend the existing functionality of JavaScript, both effective but one a little more functionally complete.

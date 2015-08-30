@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: master
 title: Why JavaScript For In Loops Are Bad
 keywords: javascript, for, forin, loops, bad
 description: An article discussing the pitfalls of using for-in loops in JavaScript and how to avoid them.
 date: Apr 11 2012
+permalink: /blog/javascript/why-javascript-for-in-loops-are-bad.html
+redirect_from: /tutorials/javascript/why-javascript-for-in-loops-are-bad.html
 ---
 
 I recently wrote an article called [Extending JavaScript - The Right Way](/extending-javascript-the-right-way) which brought up some interesting points about JavaScript and how it's prototyping model works.  However there was a piece I missed about the use of `for` loops in JavaScript and how they are basically not a good idea to use and should be avoided as much as possible.  I wanted to write a follow up piece to that article explaining the difference between using a regular `for` loop and a `for in` loop as I have received a lot of great feedback from the community.

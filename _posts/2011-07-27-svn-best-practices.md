@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: SVN Best Practices
 keywords: best, practice, svn, subversion
 description: Article covers some of the best practices with SVN (subversion) via the command line.
 date: Jul 27 2011
+permalink: /blog/svn/svn-best-practices.html
 ---
 
 This section outlines some of the best practices in how your repositories should be structured.  There are three main sections repositories usually follow and they are called the trunk, tags, and branches.  You are completely free to structure your repository in anyway you see fit, however these are the more common industry standards and terminology in use and it is generally a good idea to follow and be familiar with them.

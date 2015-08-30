@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: master
 title: HTML5 jQuery Scratch Pad Plugin
 keywords: html5, jquery, scratch, pad, scratchpad, plugin
 description: Sample of the jQuery wScratchpad 2.0 plugin demo and sample code.
 date: Apr 4 2012
+permalink: /blog/jquery/html5-jquery-scratch-pad-plugin.html
+redirect_from: /tutorials/jquery/html5-jquery-scratch-pad-plugin.html
 ---
 
 The Websanova Scratch Pad is a unique one of a kind plugin that allows you to add a scratching effect to images something similar to scratching a lottery ticket.  It is written using canvas so you would need an HTML5 compliant browser to use it but it does support a fallback to display a message to upgrade to a newer browser if the browser does not have canvas support.  What's really cool is that it keeps track of the percentage of area scratched so that you can trigger a callback once a user scratches a certain amount of the surface area.

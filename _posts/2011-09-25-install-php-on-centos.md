@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: Install PHP on CentOS
 keywords: install, php, centos
 description: Article covering the installation of PHP on CentOS.
 date: Sep 25 2011
+permalink: /blog/php/install-php-on-centos.html
 ---
 
 Installing PHP is as simple as running the following yum command.

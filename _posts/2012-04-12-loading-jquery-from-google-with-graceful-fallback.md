@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: master
 title: Loading jQuery From Google With Graceful Fallback
 keywords: jquery, load, google, graceful, fallback
 description: Short article with code sample describing how to load jQuery from Google with a gracefuly local fallback.
 date: Apr 12 2012
+permalink: /blog/jquery/loading-jquery-from-google-with-graceful-fallback.html
+redirect_from: /tutorials/jquery/loading-jquery-from-google-with-graceful-fallback.html
 ---
 
 This is a little example of how to load jQuery from Googles CDN. I prefer to load it from there as it's nicely minified and g-zipped as well there is a better chance a user would have already picked up this file from another site so it will already be cached. This can improve the loading time of your site and every little bit helps. We also provide a fallback in case Google decides to crash for whatever reason.

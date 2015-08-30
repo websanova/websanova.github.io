@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: Install Mailman on CentOS
 keywords: install, mailman, centos
 description: Article covers installing Mailman mail service on CentOS Linux.
 date: Jun 6 2011
+permalink: /blog/centos/install-mailman-on-centos.html
 ---
 
 This tutorial covers installing Milman on CentOS along with a guide on how to setup and create your first mailing list.

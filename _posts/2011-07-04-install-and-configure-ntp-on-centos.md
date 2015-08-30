@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: Install and Configure NTP on CentOS
 keywords: install, configure, ntp, centos
 description: Article covers installing and configuring NTP time system on CentOS Linux.
 date: Jul 4 2011
+permalink: /blog/svn/install-and-configure-ntp-on-centos.html
 ---
 
 This is a simple tutorial on how to install and configure the NTP service to make sure your clock is accurate and synched on your system.

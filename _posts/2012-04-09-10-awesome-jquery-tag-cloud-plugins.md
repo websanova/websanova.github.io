@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: master
 title: 10 Awesome jQuery Tag Cloud Plugins
 keywords: jquery, tag, cloud, plugin
 description: A collection of the best jQuery tag cloud plugins with sample images and demo and download links.
 date: Apr 9 2012
+permalink: /blog/jquery/10-awesome-jquery-tag-cloud-plugins.html
+redirect_from: /tutorials/jquery/10-awesome-jquery-tag-cloud-plugins.html
 ---
 
 This is a collection of jQuery tag clouds (or word clouds if you like) plugins.  They range from simple old fashioned clouds to more complex 3D rotating clouds with zoom built in.  Notable ones include Awesome Cloud that looks great on large sets of words and Goat 1000's HTML5 3D rotator cloud.  Whether you are looking for something simple or more complex they all look fantastic so make sure to try out their demos as many contain some interesting effects.  Without further adieu, here are 10 pretty awesome jQuery tag cloud plugins in no particular order.

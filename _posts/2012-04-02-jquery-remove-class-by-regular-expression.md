@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: master
 title: jQuery Remove Class by Regular Expression
 keywords: jquery, remove, class, regular, expression, regex
 description: Sample code for removing a class or classes via regular expression through a jQuery utility extension.
 date: Apr 2 2012
+permalink: /blog/jquery/jquery-remove-class-by-regular-expression.html
+redirect_from: /tutorials/jquery/jquery-remove-class-by-regular-expression.html
 ---
 
 I recently came across a problem in an app I was working on of needing to remove a class name from an element that began with a particular string.  The removeClass() method that comes with jQuery does not seem to be able to handle any type of wildcards and only works on an exact match.  This led me to write my own little removeClassRegEx() and hasClassRegex() methods to be able to handle this problem which I have shared below.

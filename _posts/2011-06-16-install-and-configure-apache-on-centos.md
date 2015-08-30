@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: Install and Configure Apache on CentOS
 keywords: install, configure, apache, centos
 description: The article covers installing and configuring Apache Web server on CentOS Linux.
 date: Jun 16 2011
+permalink: /blog/apache/install-and-configure-apache-on-centos.html
 ---
 
 This tutorial covers installing Apache on CentOS along with some basic configuration to get it up and running.

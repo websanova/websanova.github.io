@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: master
 title: Wordpress on Multiple Ports
 keywords: wordpress, multiple, ports
 description: Article covers setting up wordpress on multiple ports for use with multiple web severs on the same system.
 date: Sep 3 2011
+permalink: /blog/wordpress/wordpress-on-multiple-ports.html
 ---
 
 So this is a little tidbit I thought I would share as I came across the question quite a few times trying to find an answer to it.  Basically I'm testing Nginx and Apache side by side on the same server with Apache on port 80 and Nginx on port 81.  The problem is I want to use the same WordPress install for both servers with different ports.
