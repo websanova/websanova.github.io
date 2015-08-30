@@ -12,11 +12,10 @@ layout: nil
 	<author>
 		<name>Websanova</name>
 	</author>
-	<rights>Copyright (c) 2005-2016, Websanova; all rights reserved.</rights>
 	
 	{% for post in site.posts %}
 	<entry>
-		<title>{{ post.title }}</title>
+		<title>{{ post.title | xml_escape }}</title>
 		<link href="http://websanova.com{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://websanova.com{{ post.id }}</id>
