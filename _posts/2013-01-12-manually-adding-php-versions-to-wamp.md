@@ -4,6 +4,7 @@ title: Manually adding PHP Versions to WAMP
 keywords: php, wamp, manual
 description: The article details manually adding additional PHP versions to a WAMP install.
 date: Jan 12 2013
+permalink: /blog/php/manually-adding-php-versions-to-wamp.html
 ---
 
 Since WAMP is usually a little behind on it's versions of Apache, MySQL and PHP we may sometimes need to install them manually.  I find this not as big an issue with Apache or MySQL but typically prefer to have my PHP version as up to date as possible.  Hence this little tutorial goes over the brief steps required to quickly update your PHP versions manually in `wamp`.

@@ -4,6 +4,7 @@ title: Websanova Redux
 keywords: websanova, redesign
 description: After a bit of a break from Websanova we’re finally back with a redesign and some new plugins which we will be showcasing in the following week.
 date: Jun 17 2013
+permalink: /blog/articles/websanvoa-redux.html
 ---
 
 After a bit of a break from Websanova we’re finally back with a redesign and some new plugins which we will be showcasing in the following week. It’s been a long time since we’ve made any design tweaks to the site and it was starting to look very old and outdated. We’ve made tons of changes both on the surface and behind the scenes in the hope to make the blog easier to read and more accessible on a variety of platforms. We also wanted to streamline our processes so that we can focus more on posting and writing articles rather than worrying about little details on the back end. With that here are some key highlights along with some before and after shots.
