@@ -62,9 +62,9 @@ It really depends what kind of package we are developing, but for the sake of si
 
 Next we will need to update each version of Laravel we want to test our package in. This will usually only include updating the `config/app.php` file with appropriate Facades and ServiceProviders. We will also need to update the composer.json file to tell it where to find our package.
 
-**config/app.php**
-
 ~~~
+// config/app.php
+
 'providers' => [
 	...
 	'Websanova\Demo\DemoServiceProvider',
@@ -76,10 +76,8 @@ Next we will need to update each version of Laravel we want to test our package 
 	'Demo' => 'Websanova\Demo\DemoFacade',
 	...
 ],
-~~~
 
-**composer.json**
-~~~
+// composer.json
 ...
 "autoload": {
 	...
@@ -88,6 +86,7 @@ Next we will need to update each version of Laravel we want to test our package 
 		"Websanova\\Demo\\": "packages/Websanova/Demo/src/"
 	}
 },
+
 ...
 ~~~
 
@@ -95,8 +94,9 @@ Next we will need to update each version of Laravel we want to test our package 
 
 Now that we are setup let's create a basic class, service provider and facade. Note that a service provider and facade are not necessary and we are only creating them to illustrate a basic example here.
 
-**src/Demo.php**
 ~~~
+// src/Demo.php
+
 namespace Websanova\Demo;
 
 class Demo
@@ -106,10 +106,9 @@ class Demo
         return 'hello';
     }
 }
-~~~
 
-**src/DemoServiceProvider.php**
-~~~
+// src/DemoServiceProvider.php
+
 namespace Websanova\Demo;
 
 use Illuminate\Support\ServiceProvider;
@@ -123,10 +122,9 @@ class DemoServiceProvider extends ServiceProvider
         });
     }
 }
-~~~
 
-**src/DemoFacade.php**
-~~~
+// src/DemoFacade.php
+
 namespace Websanova\Demo;
 
 use Illuminate\Support\Facades\Facade;
@@ -153,8 +151,9 @@ In the above example we already have a basic working packing. If we are just bui
 
 We will need to add a `boot` method to our `DemoServiceProvider`. This `boot` method is where we will connect many things like routes and migrations later on.
 
-**src/DemoServiceProvider.php**
 ~~~
+// src/DemoServiceProvider.php
+
 namespace Websanova\Demo;
 
 use Illuminate\Support\ServiceProvider;
@@ -177,8 +176,9 @@ class DemoServiceProvider extends ServiceProvider
 
 We will then of course also need to create a `src/Http/routes.php` file. We can then create routes as we normally would in Laravel.
 
-**src/Http/routes.php**
 ~~~
+// src/Http/routes.php
+
 Route::get('demo/test', function () {
 	return 'Test';
 });
@@ -194,8 +194,9 @@ Assuming our server is running we then navigate to `http://localhost:8000/demo/t
 
 If we have a lot of routes, we may want to organize our routes into controllers. Let's create a sample controller first.
 
-**src/Http/DemoController.php**
 ~~~
+// src/Http/DemoController.php
+
 namespace Websanova\Demo\Http;
 
 use App\Http\Controllers\Controller;
@@ -211,7 +212,9 @@ class DemoController extends Controller
 
 We then add the following line to our `routes.php` file.
 
+~~~
 Route::get('demo', 'Websanova\Demo\Http\DemoController@index');
+~~~
 
 Navigate to `http://localhost:8000/demo` and we should see our text.
 
@@ -234,8 +237,9 @@ You will also see the second argument in the `loadViewsFrom` call. This is to cr
 
 We can then create a sample view:
 
-**src/views/index.php**
 ~~~
+// src/views/index.php
+
 {{ Demo::hello() . ' from index view.' }}
 ~~~
 

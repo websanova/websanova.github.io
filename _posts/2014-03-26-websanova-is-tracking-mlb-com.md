@@ -37,4 +37,4 @@ Kind of feel like a bit of a jackass now, ah well.
 
 ## UPDATE 2
 
-For anyone keeping track you can see some of the numbers for the whole debacle in my [MLB.com Part Deux](http://www.websanova.com/blog/articles/what-happens-when-mlb-com-uses-your-google-analytics-code-part-deux) article.
+For anyone keeping track you can see some of the numbers for the whole debacle in my [MLB.com Part Deux](/blog/articles/what-happens-when-mlb-com-uses-your-google-analytics-code-part-deux) article.

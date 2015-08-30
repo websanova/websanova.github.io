@@ -54,14 +54,17 @@ composer create-project laravel/lumen ./lumen/5.1.x 5.1
 Once we have our Laravel (or Lumen) version pulled in we will `symlink` our packages directory into the folder.
 
 **Windows:**
+
 * Make Sure to run command prompt as Admin if you have UAC enabled.
 * Make sure you use full paths in Windows and not relative paths.
 * In Windows it's target then source.
+
 ~~~
 mklink /d "C:\target\path\laravel-packages\laravel\5.1.x\packages" "C:\source\path\laravel-packages\packages"
 ~~~
 
 **Linux**
+
 ~~~
 ln -ls /source/path/laravel-packages/packages /target/path/laravel-packages/5.1.x/packages
 ~~~

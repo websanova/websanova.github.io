@@ -44,8 +44,9 @@ From there we can just run a `migrate` to make sure the connection is working co
 
 Next we'll just create a `src/migrations` directory for our migration files. It's good idea to prefix your migration file names and tables to avoid conflicts.
 
-**src/migrations/0000_00_00_000000_create_websanova_demo_items_table.php**
 ~~~
+// src/migrations/0000_00_00_000000_create_websanova_demo_items_table.php
+
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
@@ -118,8 +119,9 @@ To reiterate if the migration files are strictly for testing the package and are
 
 First we will create `src/seeds` folder and follow the same naming conventions for our files.
 
-**src/seeds/DemoSeeder.php**
 ~~~
+// src/seeds/DemoSeeder.php
+
 namespace Websanova\Demo;
 
 use Illuminate\Database\Seeder;
@@ -159,8 +161,9 @@ The only hassle here is that we can't run `migrate:refresh --seed` in one line. 
 
 Let's wrap things up by retrieving some data from a model and displaying it. We'll create a `src/models` folder to keep our models in.
 
-**/src/models/Item.php**
 ~~~
+// src/models/Item.php
+
 namespace Websanova\Demo\Models;
 
 use Illuminate\Database\Eloquent\Model;

@@ -154,4 +154,4 @@ public function asArray($key)
 
 Now that we have our `Data` service in the `IoC` container it let’s us access our data from anywhere in Laravel including our models and filters. It avoid us having to pass data around through methods which can get annoying and redundant quite fast.
 
-We can also use the `Data` service in our views directly like any other variable using `{{ Data::get('title') }}` for example. This last step is great as it means we can avoid all the `$this->layout->with()` calls. Unless you like having `{{ $title }}` variables directly in which case you can still do `$this->layout->with(Data::all())`.
+We can also use the `Data` service in our views directly like any other variable using `@{{ Data::get('title') }}` for example. This last step is great as it means we can avoid all the `$this->layout->with()` calls. Unless you like having `@{{ $title }}` variables directly in which case you can still do `$this->layout->with(Data::all())`.

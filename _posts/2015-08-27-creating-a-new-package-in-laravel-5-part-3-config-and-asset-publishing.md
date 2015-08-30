@@ -22,8 +22,9 @@ From part 2 of the series we already have quite enough setup to start building s
 
 To start we can create a `/src/config` directory to store our config files. Typically we will have only one file but I prefer this setup in case things get more complicated down the road.
 
-**src/config/main.php**
 ~~~
+// src/config/main.php
+
 return [
 	'hello' => 'Hello',
 	'world' => 'World',

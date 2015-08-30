@@ -40,7 +40,7 @@ The version at the time of this writing was `4.8.1`, but you can just check [Pac
 The next step is to create the `phpunit.xml` file in the root of our package. We can just use the sample below to start but of course you can put in your won configuration as well.
 
 ~~~
-#packages/websanvoa/demo/phpunit.xml
+// packages/websanvoa/demo/phpunit.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
@@ -66,7 +66,7 @@ The next step is to create the `phpunit.xml` file in the root of our package. We
 We will then also create a `tests` directory in the root of our package. In there we will house our test files.
 
 ~~~
-#packages/websanova/demo/tests/DemoTest.php
+// packages/websanova/demo/tests/DemoTest.php
 
 class DemoTest extends TestCase
 {

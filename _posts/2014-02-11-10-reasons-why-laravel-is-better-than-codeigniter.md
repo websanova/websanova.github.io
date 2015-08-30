@@ -7,10 +7,6 @@ date: Feb 11 2014
 permalink: /blog/laravel/10-reasons-why-laravel-is-better-than-codeigniter.html
 ---
 
- 
-10 Reasons Why Laravel is Better Than CodeIgniter
-Feb 11, 2014 by Rob | Leave reply
-10 Reasons Why Laravel is Better Than CodeIgniter
 Yep another post on why you should switch to Laravel from CodeIgniter. I’ve been using CodeIgniter for about three years now and still continue to do so on some projects. However since I decided to finally give Laravel a whirl, it’s been no looking back. I was quite impressed, Laravel is the framework PHP needed and it has been a breathe of fresh air to work with. Any new project will definitely be created using Laravel as it just ships with so much more out of the box than CodeIgniter does.
 
 The key thing to note for those sitting on the fence is that the learning curve coming from CodeIgniter is very small and it only really takes a day or two to get up and going with Laravel. From there of course you will need to invest some time learning a few things here and there. But the time invested to learn a few new things in Laravel is well worth it in the long term as it will save you loads of time down the road.
