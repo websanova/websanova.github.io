@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	
+	<title type="text" xml:lang="en">Websanova Blog</title>
+	<link type="application/atom+xml" href="http://websanova.com/feed/" rel="self"/>
+ 	<link type="text" href="http://websanova.com" rel="alternate"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://websanova.com</id>
+	<author>
+		<name>Websanova</name>
+	</author>
+	<rights>Copyright (c) 2005-2015, Websanova; all rights reserved.</rights>
+	
+	{% for post in site.posts limit:20 %}
+	<entry>
+		<title>{{ post.title }}</title>
+		<link href="http://websanova.com{{ post.url }}"/>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<id>http://websanova.com{{ post.id }}</id>
+		<content type="html">{{ post.description | xml_escape }}</content>
+	</entry>
+	{% endfor %}
+</feed>
