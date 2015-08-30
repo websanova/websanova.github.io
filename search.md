@@ -14,6 +14,8 @@ page: true
     #search input, #search button {height: 30px;}
 </style>
 
+<h3>&nbsp;</h3>
+
 <form id="search" action="/search">
     <input name="q" type="text" placeholder="Search Websanova" />
     <button type="submit">Search</button>
@@ -31,4 +33,4 @@ page: true
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchresults-only></gcse:searchresults-only>
+<gcse:searchresults-only linktarget="_parent"></gcse:searchresults-only>
