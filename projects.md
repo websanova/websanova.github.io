@@ -4,6 +4,7 @@ title: Websanova Projects
 keywords: websanova, projects
 description: List of Websanova projects.
 permalink: /projects.html
+disqus: false
 ---
 
 Just a bunch of little pet projects of mine. Currently working on [langnova.com](http://langnova.com).
