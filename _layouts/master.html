@@ -55,13 +55,15 @@
 	</div>
 
 	<div id="container">
-		<h1>{{ page.title }}</h1>
+		{% if page.page != true %}
+			<h1>{{ page.title }}</h1>
+		{% endif %}
 
 		<time id="date">{{ page.date | date: '%B %d %Y' }}</time>
 
 		<div id="content">{{ content }}</div>
 
-		{% if page.disqus != false %}
+		{% if page.page != true %}
 			<div id="disqus_thread"></div>
 			<script type="text/javascript">
 			    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

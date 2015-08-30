@@ -4,7 +4,7 @@ title: Websanova Search
 keywords: websanova, search
 description: Search Websanova (powered by Google)
 permalink: /search.html
-disqus: false
+page: true
 ---
 
 <style>

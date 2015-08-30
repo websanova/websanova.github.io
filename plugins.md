@@ -4,8 +4,10 @@ title: Websanova Plugins
 keywords: websanova, plugins
 description: List of Websanova plugins.
 permalink: /plugins.html
-disqus: false
+page: true
 ---
+
+## Plugins
 
 <ul>
 <li><a href="http://wpaint.websanova.com">wPaint</a></li>
