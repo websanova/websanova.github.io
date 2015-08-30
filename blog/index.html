@@ -20,7 +20,9 @@ description: A simple blog dedicated to web development.
 
 	{% for page in (1..paginator.total_pages) %}
 		{% if page == paginator.page %}
-			<a>{{ page }}</a>
+			<a class="active">{{ page }}</a>
+		{% elsif page == 1 %}
+			<a href="/blog">{{ page }}</a>
 		{% else %}
 			<a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
 		{% endif %}
