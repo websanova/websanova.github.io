@@ -1,0 +1,24 @@
+---
+layout: master
+title: "The 7 Habits of Highly Effective Programmers :: Production vs Production Capability"
+keywords: seven, haibits, production, capability
+description: From tips on effectiveness from The 7 Habits of Highly Effective People I wanted to take the concepts to programming. How can we apply these strategies to become better programmers.
+date: Sep 16 2013
+permalink: /blog/articles/the-7-habits-of-highly-effective-programmers-production-vs-production-capability.html
+---
+
+I recently read the book "7 Habits of Highly Effective People" which had the really interesting concept of production vs production capability (P / PC). I was discussing this with a friend but the concept was not entirely clear as I think the analogy given in the book about the machine is not that great and relevant. So I thought I would give an analogy relevant to programmers as I think the P / PC concept is something we can all relate too as developers and is a very powerful concept to understand and apply.
+
+Production or “P” is your ability to produce results. How many tasks can you complete in a day, how many bugs do you introduce and the overall quality of your work as an example. If you never take the time to learn anything new, a new framework, new theory on design patterns, etc then you will pretty much always produce the same results. You will slowly learn new things but only on an on demand basis if at all.
+
+Perhaps a good example of this is when you have a team that is overworked and driven by constantly producing results by the idea of more hours equals more results. No one takes the time to improve themselves or the processes and you end up just having a bunch of angry and disgruntled employees with a massively high turnaround. The code is a total mess and no one wants to be there, it’s an in between jobs kind of place. I have worked in places like this and my only thought was, if they would only just invest a small amount of time to improve some area it would greatly benefit them in the long run. Sure they might reduce the amount of results for the next week but in the long run it pays off immensely. Needles to say I haven’t stayed in “shops” like this for long and neither has anyone I know.
+
+Production Capability or “PC” is the time you take to improve the quality of your results. You learn new tools or frameworks. Learn new design patterns or techniques to solve problems. This reduces your bugs, makes your code easier to read and maintain. You see new approaches to a problem which helps you solve problems better in the future. However, you can read all the books and theory you want and know 20 programming languages but this is all for nothing if you get caught up in theory too much and it prevents you from producing some real results.
+
+I think the best example of “PC” gone awry is the over planning of a project. Trying to make things too perfect. You spend too much time bench marking different databases. You try one framework than another, you argue about using MongoDB or MySQL. You might even migrate your database back and forth a few times. You spend all your time in maintenance and theory trying to plan out everything perfectly and in the end there are no results. Deadlines go by and there is nothing to show. I have personally seen this happen and it’s not pretty, resulting in a team of 8 getting flushed out the door one morning without notice.
+
+This is where I think a lot of things like agile and iterative development come from. They focus on producing results (maybe a three week sprint). But then stepping away from the work (maybe for a week) to plan the next sprint. This may involve doing some R&D, fixing up a slow routine and making plans for the next 3 week sprint. Focus is not just on producing more results in the next three week sprint, but also on producing better results. Improving yourselves and the process not just the code. Streamlining deployment, iteration and the coordination of the team.
+
+If you stay in production mode what happens is you basically will become outdated. You’ll be stuck in a position at a company because you’re the only one who understands how their out dated system works. But if you have to look for a new job you will quickly realize you’re out of date. If you get caught up too much in theory nothing ever gets done, months go by and there is nothing to show. The key is to strike a balance between the two.
+
+Make the investment up front and not only on an on demand basis. Take that day on the weekend to try Angular or Ember, try Ruby or PHP or Java and keep an open mind that you’re just learning. How is it that some guys are making the big bucks and you’re not, you’re putting in the hours after all aren’t you. Well it’s not about hours it’s about results and and what you can produce in the same amount of time as someone else. Someone who is ahead of the curve because they have invested the time on maintenance up front is indispensable.

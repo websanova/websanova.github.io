@@ -3,15 +3,15 @@ layout: master
 title: "Creating a Laravel 5.x Package :: Part 5 - Unit Testing"
 keywords: php, laravel, package, unit, testing, websanova
 description: In Part 5 we cover a neglected area in package development. If we want others contributing fixes and updates to our package then unit testing will become crucial.
-permalink: /laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing.html
+permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing.html
 date: Aug 29 2015
 ---
 
-* [Part 1 - Package Workflow](/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow)
-* [Part 2 - Controllers, Routes and Views](/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views)
-* [Part 3 - Config and Asset Publishing](/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
-* [Part 4 - Database, Migrations and Seeding](/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
-* [Part 5 - Unit Testing](/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
+* [Part 1 - Package Workflow](/blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow)
+* [Part 2 - Controllers, Routes and Views](/blog/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views)
+* [Part 3 - Config and Asset Publishing](/blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
+* [Part 4 - Database, Migrations and Seeding](/blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
+* [Part 5 - Unit Testing](/blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
 ## Intro
