@@ -5,7 +5,7 @@ keywords: javascript, url, parser
 description: Sample code and demo of the Websanova JavaScript url parser.
 date: Oct 27 2012
 permalink: /blog/javascript/javascript-url-parser.html
-redirect_from: "/tutorials/javascript/javascript-url-parser.html/"
+redirect_from: "/tutorials/javascript/javascript-url-parser.html"
 ---
 
 This is a nice little library I wrote for myself as I found I was quite frequently parsing a url in my projects.  I was constantly building little custom functions but decided to finally build out a nice simple and lightweight library to help parse url's with.  It comes in at only ~1.6 Kb minified and ~0.6Kb gzipped.  You can find the latest version of the [url() JavaScript URL parser on GitHub](https://github.com/websanova/js-url#url) which contains a minified and jQuery version.
