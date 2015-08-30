@@ -9,12 +9,9 @@ disqus: false
 
 <style>
     form {position: relative; width: 100%; padding-right: 110px;}
-    #search input { border: solid #cacaca 1px;}
-    #search button {position:absolute; right: 0px; top: 0px; background-color: #428bca; width: 100px;}
-    #search input,
-    #search button {
-        height: 30px;
-    }
+    #search input { border: solid #cacaca 1px; width: 100%;}
+    #search button {position:absolute; right: 0px; top: 0px; border:none; color: #fafafa; background-color: #428bca; width: 100px;}
+    #search input, #search button {height: 30px;}
 </style>
 
 <form id="search" action="/search">
