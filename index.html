@@ -1,15 +1,1 @@
----
-layout: master
-title: Home
-permalink: /blog.html
----
-
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.description }}
-  </div>
-{% endfor %}
+<script type="text/javascript">window.location = '/blog';</script>

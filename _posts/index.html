@@ -1,0 +1,17 @@
+---
+layout: master
+title: Blog
+keywords: webanova, blog, javascript, linux, php, mysql, laravel
+description: A simple blog dedicated to web development.
+permalink: /blog.html
+---
+
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.description }}
+  </div>
+{% endfor %}
