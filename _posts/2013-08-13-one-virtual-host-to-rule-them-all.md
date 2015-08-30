@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: One Virtual Host to Rule Them All
 keywords: apache, virtual, host, virtualhost, websanova 
 description: We have quite a few plugins on Websanova now and it was becoming cumbersome to constantly add new VirtualHost directives for each new plugin. We wanted to automate and streamline this a little bit so that we could just drop in a plugin folder and automatically have it served by Apache with no additional configuration.

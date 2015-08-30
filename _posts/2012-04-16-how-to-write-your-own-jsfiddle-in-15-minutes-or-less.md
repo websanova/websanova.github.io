@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: How to Write Your Own JSFiddle (In 15 Minutes or Less)
 keywords: jsfiddle, javascript
 description: This article describes how to write your own simple version of a jsfiddle style application.

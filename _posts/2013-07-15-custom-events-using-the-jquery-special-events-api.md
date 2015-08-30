@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Custom Events Using the jQuery Special Events API
 keywords: javascript, jquery, events, api, special
 description: It’s not often we need our own jQuery events, but when we do it’s nice to know we can create an elegant solution that behaves like any other event would.

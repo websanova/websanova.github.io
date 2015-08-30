@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Manually adding PHP Versions to WAMP
 keywords: php, wamp, manual
 description: The article details manually adding additional PHP versions to a WAMP install.

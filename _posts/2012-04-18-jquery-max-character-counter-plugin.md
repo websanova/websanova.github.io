@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: jQuery Max Character Counter Plugin
 keywords: jquery, max, character, counter, plugin
 description: Sample code and demo for the Websanova jquery Max Character Counter Plugin.

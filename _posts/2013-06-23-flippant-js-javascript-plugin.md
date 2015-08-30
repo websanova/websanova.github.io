@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Flippant.js JavaScript Plugin
 keywords: jquery, plugins, javascript, flippant, flippant.js
 description: This is an awesome little plugin that I just came across recently that creates a flip animation on virtually any element on your screen.

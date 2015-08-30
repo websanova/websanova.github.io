@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Websanova Redux
 keywords: websanova, redesign
 description: After a bit of a break from Websanova we’re finally back with a redesign and some new plugins which we will be showcasing in the following week.

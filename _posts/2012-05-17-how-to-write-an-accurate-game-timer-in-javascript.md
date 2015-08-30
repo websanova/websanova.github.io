@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: How to Write an Accurate Game Timer in JavaScript
 keywords: javascript, game, timer
 description: Article about how to implement an accurate FPS game timer in JavaScript.

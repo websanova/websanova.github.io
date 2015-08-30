@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Steve Jobs - Secrets of Life
 keywords: steve, jobs, life
 description: Great video with Steve Jobs reflecting on what is most important in life. This is a great quote that really caught my attention.

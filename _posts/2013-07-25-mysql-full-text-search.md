@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: MySQL Full-Text Search
 keywords: mysql, fulltext, search, full, text, websanova
 description: He was using a LIKE query with wild cards % to build his search. But this is actually not a good way to do search especially on large tables with lots of data.

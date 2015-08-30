@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Installing PHP oAuth on Windows
 keywords: install, php, oauth, windows
 description: The article details installing PHP oAuth on Windows.

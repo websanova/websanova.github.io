@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Websanova wModal jQuery Plugin
 keywords: jquery, plugins, womdal
 description: Most of the jQuery modal plugins out there had either not enough options, or too many and weren’t too flexible either way.

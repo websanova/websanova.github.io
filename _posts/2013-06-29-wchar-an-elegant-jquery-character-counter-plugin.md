@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: wChar - An Elegant JQuery Character Counter Plugin
 keywords: wchar, juery, character, counter, plugin, websanova
 description: Character Counters have always bothered me during development as I was never able to find a good place for them. Sometimes I had forms with multiple inputs and having a little character counter bubble above each one just made the form look bloated and messy.

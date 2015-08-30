@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Two Reasons a Project Will Keep You Motivated
 keywords: project, motivation
 description: An article describing motivation during a project and two main factors that keep one motivated.

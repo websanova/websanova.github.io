@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: JavaScript URL Parser
 keywords: javascript, url, parser
 description: Sample code and demo of the Websanova JavaScript url parser.

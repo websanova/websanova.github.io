@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: How to Setup Grunt.js
 keywords: javascript, grunt, grunt.js, websanova
 description: I have never really gotten into using Grunt, but once I got it going I found out how great it is at automating so many tasks like linting, testing and minifying my files.

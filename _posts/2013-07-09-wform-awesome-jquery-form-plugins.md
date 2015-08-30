@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: wForm - Awesome jQuery Form Plugins
 keywords: javascript, jquery, form, plugin, websanova
 description: After introducing our wChar, wCheck, wInput and wSelect jQuery form plugin separately over the past couple weeks we have decided it’s only fit to show all the plugins working in harmony together.

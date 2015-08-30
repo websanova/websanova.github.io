@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: Websanova EasyCache for Laravel Released
 keywords: websanova, easycache, easy, cache, laravel, laravel5, laravel4, 5.1, 5.0
 description: Websanova EasyCache Released for Laravel version 5.x. EasyCache is a simple on demand caching extension for laravel similar to get() and find(). It extends Laravel to also allow cache().

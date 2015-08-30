@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: An Intelligent JavaScript RGB to HEX Converter
 keywords: rgb, hex, convert, javascript, jquery, plugin, websanova
 description: It’s not very often I need an rgb / hex converter in my apps or to convert a color code quickly, but when I do I find there are never any good tools around to do it quickly.

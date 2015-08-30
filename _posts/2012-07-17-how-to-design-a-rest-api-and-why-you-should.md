@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: How to Design a REST API and Why You Should
 keywords: design, rest, api
 description: Detailing the process of designing a REST API and why you should build one in the first place.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: master
 title: HTML5 jQuery Paint Plugin
 keywords: html5, jquery, wpaint, paint, plugin
 description: Sample code and demo of the Websanova wPaint jQuery plugin.
