@@ -12,6 +12,7 @@ layout: nil
 	<author>
 		<name>Websanova</name>
 	</author>
+	<rights>Copyright (c) 2005-2016, Websanova; all rights reserved.</rights>
 	
 	{% for post in site.posts %}
 	<entry>
