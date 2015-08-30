@@ -18,4 +18,4 @@ permalink: /search.html
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchresults-only></gcse:searchresults-only>
+<gcse:searchbox-only></gcse:searchbox-only>

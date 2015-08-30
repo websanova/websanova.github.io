@@ -6,23 +6,19 @@ description: List of Websanova projects.
 permalink: /projects.html
 ---
 
+Just a bunch of little pet projects of mine. Currently working on [langnova.com](http://langnova.com).
+
 ## Pet Projects:
 
-<ul>
-<li><a href="http://langnova.com">Language Development App</a></li>
-<li><a href="http://coderegator.com">Code Snippets App</a></li>
-<li><a href="http://pixanova.com">Drawing App Featuring wPaint</a></li>
-<li><a href="http://jsnova.websanova.com">Simple JSFiddle Clone</a></li>
-</ul>
+* [Language Development App](http://langnova.com)
+* [Code Snippets App](http://coderegator.com)
+* [Drawing App Featuring wPaint](http://pixanova.com)
+* [Simple JSFiddle Clone](http://jsnova.websanova.com)
 
 ## Books:
 
-<ul>
-<li><a href="http://jquery.in30minutes.com">jQuery Plugin Development in 30 Minutes</a></li>
-</ul>
+* [jQuery Plugin Development in 30 Minutes](http://jquery.in30minutes.com)
 
 ## Games
 
-<ul>
-<li><a href="http://blocknik.websanova.com">Blocknik HTML5 Tetris Style Game</a></li>
-</ul>
+* [Blocknik HTML5 Tetris Style Game](http://blocknik.websanova.com)
