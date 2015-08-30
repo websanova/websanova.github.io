@@ -4,7 +4,7 @@ title: JavaScript URL Parser
 keywords: javascript, url, parser
 description: Sample code and demo of the Websanova JavaScript url parser.
 date: Oct 27 2012
-redirect_from: /tutorials/javascript/javascript-url-parser
+redirect_from: /tutorials/javascript/javascript-url-parser.html
 permalink: /blog/javascript/javascript-url-parser.html
 ---
 
