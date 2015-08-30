@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: master
 title: Websanova Search
 keywords: websanova, search
 description: Search Websanova (powered by Google)
+permalink: /search.html
 ---
 
 <script>

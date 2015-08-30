@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: master
 title: Websanova Plugins
 keywords: websanova, plugins
 description: List of Websanova plugins.
+permalink: /plugins.html
 ---
 
 <ul>
