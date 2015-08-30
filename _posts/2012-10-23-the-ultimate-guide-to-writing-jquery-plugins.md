@@ -3,7 +3,9 @@ layout: default
 title: The Ultimate Guide to Writing jQuery Plugins
 keywords: jquery, plugin, development, guide
 description: An article outlining in detail jQuery plugin development.
-date: Oct 16 2010
+date: Oct 23 2012
+permalink: /blog/jquery/the-ultimate-guide-to-writing-jquery-plugins
+redirect_url: /tutorials/jquery/the-ultimate-guide-to-writing-jquery-plugins.html
 ---
 
 I have written a few articles about jQuery Plugin Development in the past which readers seem to have been interested in, but I have since then written many more plugins and have thus picked up a few more tips and tricks.  I have therefore decided to put together this more comprehensive guide on jQuery Plugin Development.
