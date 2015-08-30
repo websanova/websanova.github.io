@@ -125,7 +125,7 @@ public function boot()
 
     ...
 }
-~~
+~~~
 
 Furthermore we can specify a provider to avoid publishing all packages and focus on just one particular package. Also very useful when using `--force` since we may not want to override other packages we are testing.
 
