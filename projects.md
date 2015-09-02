@@ -22,3 +22,7 @@ page: true
 ## Games
 
 * [Blocknik HTML5 Tetris Style Game](http://blocknik.websanova.com)
+
+## Services
+
+* [Check the services page](/services)
