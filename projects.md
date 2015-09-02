@@ -13,6 +13,7 @@ page: true
 * [Language Development App](http://langnova.com)
 * [Code Snippets App](http://coderegator.com)
 * [Drawing App Featuring wPaint](http://pixanova.com)
+* [Motivational Quote App](http://wallsofinspiration.com)
 * [Simple JSFiddle Clone](http://jsnova.websanova.com)
 
 ## Books:
