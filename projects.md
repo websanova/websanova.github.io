@@ -4,6 +4,7 @@ title: Websanova Projects
 keywords: websanova, projects
 description: List of Websanova projects.
 permalink: /projects.html
+redirect_from: /books.html
 page: true
 ---
 
