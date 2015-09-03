@@ -6,8 +6,8 @@ permalink: /feed.xml
 <feed xmlns="http://www.w3.org/2005/Atom">
 	
 	<title type="text" xml:lang="en">Websanova Blog</title>
-	<link type="application/atom+xml" href="http://websanova.com/feed/" rel="self"/>
- 	<link type="text" href="http://websanova.com" rel="alternate"/>
+	<link type="application/atom+xml" href="http://{{ site.url }}/feed.xml" rel="self"/>
+ 	<link type="text" href="http://{{ site.url }}" rel="alternate"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://{{ site.url }}</id>
 	<author>
@@ -17,7 +17,7 @@ permalink: /feed.xml
 	{% for post in site.posts %}
 	<entry>
 		<title>{{ post.title | xml_escape }}</title>
-		<link href="http://websanova.com{{ post.url }}"/>
+		<link href="http://{{ site.url }}{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://{{ site.url }}{{ post.id }}</id>
 		<content type="html">{{ post.description | xml_escape }}</content>
