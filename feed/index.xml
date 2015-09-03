@@ -9,7 +9,7 @@ permalink: /feed.xml
 	<link type="application/atom+xml" href="http://websanova.com/feed/" rel="self"/>
  	<link type="text" href="http://websanova.com" rel="alternate"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://websanova.com</id>
+	<id>http://{{ site.url }}</id>
 	<author>
 		<name>Websanova</name>
 	</author>
@@ -19,7 +19,7 @@ permalink: /feed.xml
 		<title>{{ post.title | xml_escape }}</title>
 		<link href="http://websanova.com{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://websanova.com{{ post.id }}</id>
+		<id>http://{{ site.url }}{{ post.id }}</id>
 		<content type="html">{{ post.description | xml_escape }}</content>
 	</entry>
 	{% endfor %}

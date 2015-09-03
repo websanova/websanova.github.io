@@ -1,4 +1,5 @@
 paginate: 15
 paginate_path: "/blog/page/:num"
+url: www.websanova.com
 gems: 
  - jekyll-redirect-from
