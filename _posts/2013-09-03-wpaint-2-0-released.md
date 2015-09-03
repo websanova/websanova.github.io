@@ -4,7 +4,7 @@ title: wPaint 2.0 Released!
 keywords: wpaint, jquery, plugins, websanova, paint, javascript
 description: It’s been long overdue but wPaint 2.0 is finally out. The 1.0 stream was doing well but I was getting continually emailed with feature requests, and bugs particularly on mobile. With this release wPaint has been completely rewritten from the ground up. 
 date: Sep 03 2013
-permalink: /blog/jquery/wpaint-2-0-released.html
+permalink: /blog/jquery/wpaint-2-0-released
 ---
 
 It’s been long overdue but wPaint 2.0 is finally out. The 1.0 stream was doing well but I was getting continually emailed with feature requests, and bugs particularly on mobile. With this release wPaint has been completely rewritten from the ground up. New things like multiple themeing and the ability to add plugins/modules to wPaint have been added to make it much easier to build upon and extend. This makes it both easier for me to maintain and continue to grow with new feature requests as well as making it easier for other developers to add their own plugins to wPaint.

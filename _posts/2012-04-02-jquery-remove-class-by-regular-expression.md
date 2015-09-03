@@ -4,7 +4,7 @@ title: jQuery Remove Class by Regular Expression
 keywords: jquery, remove, class, regular, expression, regex
 description: Sample code for removing a class or classes via regular expression through a jQuery utility extension.
 date: Apr 2 2012
-permalink: /blog/jquery/jquery-remove-class-by-regular-expression.html
+permalink: /blog/jquery/jquery-remove-class-by-regular-expression
 redirect_from: /tutorials/jquery/jquery-remove-class-by-regular-expression.html
 ---
 

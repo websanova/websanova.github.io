@@ -4,7 +4,7 @@ title: How to Write an Accurate Game Timer in JavaScript
 keywords: javascript, game, timer
 description: Article about how to implement an accurate FPS game timer in JavaScript.
 date: May 17 2012
-permalink: /blog/javascript/how-to-write-an-accurate-game-timer-in-javascript.html
+permalink: /blog/javascript/how-to-write-an-accurate-game-timer-in-javascript
 redirect_from: /tutorials/javascript/how-to-write-an-accurate-game-timer-in-javascript.html
 ---
 

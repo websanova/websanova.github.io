@@ -4,7 +4,7 @@ title: JavaScript RGB to Hex Converter
 keywords: javascript, rgb, hex, converter
 description: An article with sample code for a smiple JavaScript RGB to HEX converter.
 date: Mar 28 2012
-permalink: /blog/javascript/javascript-rgb-to-hex-converter.html
+permalink: /blog/javascript/javascript-rgb-to-hex-converter
 redirect_from: /tutorials/javascript/javascript-rgb-to-hex-converter.html
 ---
 

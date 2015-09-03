@@ -4,7 +4,7 @@ title: What Happens When MLB.com Uses Your Google Analytics Code (Part Deux)
 keywords: mlb, analytics, tracking, stats
 description: Well, seems my 24 of fame has come to an end. MLB.com updated their website within a few hours of my Websanova is tracking MLB.com posting and removed my Google Analytics and Addthis codes. 
 date: Mar 28 2014
-permalink: /blog/articles/what-happens-when-mlb-com-uses-your-google-analytics-code-part-deux.html
+permalink: /blog/articles/what-happens-when-mlb-com-uses-your-google-analytics-code-part-deux
 ---
 
 Well, seems my 24 of fame has come to an end. MLB.com updated their website within a few hours of my [Websanova is tracking MLB.com](/blog/articles/websanova-is-tracking-mlb-com) posting and removed my Google Analytics and Addthis codes. It was nice being at the top of HackerNews for a few hours but the residue of traffic will slowly die and dwindle and life will be back to normal soon. In the mean time I’m milking it with this second article.

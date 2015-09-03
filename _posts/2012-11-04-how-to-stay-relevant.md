@@ -4,7 +4,7 @@ title: How to Stay Relevant
 keywords: relevant, technology, industry
 description: Staying relevant in the technology industry can be difficult, it seems there are so many new things to keep up with, let alone keeping up with the technologies you already know.
 date: Nov 04 2012
-permalink: /blog/articles/how-to-stay-relevant.html
+permalink: /blog/articles/how-to-stay-relevant
 ---
 
 Staying relevant in the technology industry can be difficult, it seems there are so many new things to keep up with, let alone keeping up with the technologies you already know. I’ve seen too many developers simply learn skills, but not refine or improve them. You get caught up with trying to just produce as much code as you can and don’t think about producing more code in less time.

@@ -4,7 +4,7 @@ title: 10 Awesome jQuery Tag Cloud Plugins
 keywords: jquery, tag, cloud, plugin
 description: A collection of the best jQuery tag cloud plugins with sample images and demo and download links.
 date: Apr 9 2012
-permalink: /blog/jquery/10-awesome-jquery-tag-cloud-plugins.html
+permalink: /blog/jquery/10-awesome-jquery-tag-cloud-plugins
 redirect_from: /tutorials/jquery/10-awesome-jquery-tag-cloud-plugins.html
 ---
 

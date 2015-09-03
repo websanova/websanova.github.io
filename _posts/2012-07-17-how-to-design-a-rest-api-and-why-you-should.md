@@ -4,7 +4,7 @@ title: How to Design a REST API and Why You Should
 keywords: design, rest, api
 description: Detailing the process of designing a REST API and why you should build one in the first place.
 date: Jul 17 2012
-permalink: /blog/web-services/how-to-design-a-rest-api-and-why-you-should.html
+permalink: /blog/web-services/how-to-design-a-rest-api-and-why-you-should
 redirect_from: /tutorials/web-services/how-to-design-a-rest-api-and-why-you-should.html
 ---
 

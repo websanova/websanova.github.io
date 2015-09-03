@@ -4,7 +4,7 @@ title: Two Reasons a Project Will Keep You Motivated
 keywords: project, motivation
 description: An article describing motivation during a project and two main factors that keep one motivated.
 date: Jul 17 2012
-permalink: /blog/articles/two-reasons-a-project-will-keep-you-motivated.html
+permalink: /blog/articles/two-reasons-a-project-will-keep-you-motivated
 ---
 
 I recently came across this post on HN about a little [chrome plugin](http://www.blockr.me/) you can use to block your internet access until you are done writing some code.  It's very true that the internet can be an easy distraction when trying to get some work done and the little plugin is a nice little tool to assist with that.  When I really want to focus on something I typically turn off all my instant messengers, put my phone on silent flip it over and start hacking.

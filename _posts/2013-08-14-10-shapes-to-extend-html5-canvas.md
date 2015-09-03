@@ -4,7 +4,7 @@ title: 10 Shapes to Extend HTML5 Canvas
 keywords: html5, canvas, shapes, draw, paint, wpaint
 description: Today we extended HTML5 Canvas to easily allow drawing some shapes through the use of simple methods.
 date: Aug 14 2013
-permalink: /blog/html5/10-shapes-to-extend-html5-canvas.html
+permalink: /blog/html5/10-shapes-to-extend-html5-canvas
 ---
 
 Today I wanted to take a look at extending the HTML5 canvas object to add shapes to it. The canvas object comes with some basic functions allowing us to draw things like rectangles and lines but it doesn’t come packaged with even a more basic subset of shapes like circles, ellipses or rounded corners. I was creating a variety of shapes for the new [wPaint 2.0](http://wpaint.websanova.com/) version I’m currently working on and thought I would share some of the functions I created.

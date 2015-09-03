@@ -4,7 +4,7 @@ title: A Large Collection of Useful jQuery Utils
 keywords: large, collection, jquery, utils, utilities
 description: A collection of useful jQuery utitilites to easily add to your projects on demand when needed.
 date: Mar 25 2012
-permalink: /blog/jquery/a-large-collection-of-useful-jquery-utils.html
+permalink: /blog/jquery/a-large-collection-of-useful-jquery-utils
 redirect_from: /tutorials/jquery/a-large-collection-of-useful-jquery-utils.html
 ---
 

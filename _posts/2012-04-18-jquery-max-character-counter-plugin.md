@@ -4,7 +4,7 @@ title: jQuery Max Character Counter Plugin
 keywords: jquery, max, character, counter, plugin
 description: Sample code and demo for the Websanova jquery Max Character Counter Plugin.
 date: Apr 18 2012
-permalink: /blog/jquery/jquery-max-character-counter-plugin.html
+permalink: /blog/jquery/jquery-max-character-counter-plugin
 redirect_from: /tutorials/jquery/jquery-max-character-counter-plugin.html
 ---
 

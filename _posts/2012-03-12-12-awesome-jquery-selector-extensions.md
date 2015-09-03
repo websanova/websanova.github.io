@@ -4,7 +4,7 @@ title: 12 Awesome jQuery Selector Extensions
 keywords: jquery, selector, extension
 description: List of 12 jQuery selectors for extending jQuery.
 date: Mar 12 2012
-permalink: /blog/jquery/12-awesome-jquery-selector-extensions.html
+permalink: /blog/jquery/12-awesome-jquery-selector-extensions
 redirect_from: /tutorials/jquery/12-awesome-jquery-selector-extensions.html
 ---
 

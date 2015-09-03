@@ -4,7 +4,7 @@ title: Loading jQuery From Google With Graceful Fallback
 keywords: jquery, load, google, graceful, fallback
 description: Short article with code sample describing how to load jQuery from Google with a gracefuly local fallback.
 date: Apr 12 2012
-permalink: /blog/jquery/loading-jquery-from-google-with-graceful-fallback.html
+permalink: /blog/jquery/loading-jquery-from-google-with-graceful-fallback
 redirect_from: /tutorials/jquery/loading-jquery-from-google-with-graceful-fallback.html
 ---
 

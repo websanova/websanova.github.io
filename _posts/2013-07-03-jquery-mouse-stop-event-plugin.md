@@ -4,7 +4,7 @@ title: jQuery .mousestop() Event Plugin
 keywords: javascript, jquery, mouse, event, mousestop, custom, websanova
 description: It’s not very often we think about triggering a stop event over an element. But perhaps that is because the event has never existed in JavaScript.
 date: July 03 2013
-permalink: /blog/jquery/jquery-mouse-stop-event-plugin.html
+permalink: /blog/jquery/jquery-mouse-stop-event-plugin
 ---
 
 It’s not very often we think about triggering a stop event over an element. But perhaps that is because the event has never existed in JavaScript. Actually the first time I came across ever needing a `mousestop` event was when I was building my [jQuery Tooltip Plugin](http://wtooltip.websanova.com). I was attempting to closely mimic the browsers default behavior and noticed that the `title` tooltip that appears on elements only comes after the mouse stops moving.

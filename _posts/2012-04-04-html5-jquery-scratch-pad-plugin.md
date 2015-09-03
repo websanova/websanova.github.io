@@ -4,7 +4,7 @@ title: HTML5 jQuery Scratch Pad Plugin
 keywords: html5, jquery, scratch, pad, scratchpad, plugin
 description: Sample of the jQuery wScratchpad 2.0 plugin demo and sample code.
 date: Apr 4 2012
-permalink: /blog/jquery/html5-jquery-scratch-pad-plugin.html
+permalink: /blog/jquery/html5-jquery-scratch-pad-plugin
 redirect_from: /tutorials/jquery/html5-jquery-scratch-pad-plugin.html
 ---
 

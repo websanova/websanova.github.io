@@ -4,7 +4,7 @@ title: jQuery .clear() – Clearing Element Contents Using a Timer
 keywords: jquery, clear, timer, plugin, javascript
 description: This is a handy little method to have laying around. It allows you to populate an element and clear it after a certain amount of time.
 date: Nov 13 2012
-permalink: /blog/jquery/jquery-clear-clearing-element-contents-using-a-timer.html
+permalink: /blog/jquery/jquery-clear-clearing-element-contents-using-a-timer
 ---
 
 This is a handy little method to have laying around. It allows you to populate an element and clear it after a certain amount of time. You simply provide a string as a message and optionally provide a `delay` and `fadeOut` duration for the element. The reason I wrote myself this little method is that simply using the jQuery `delay` method didn’t really produce the desired results as it did not allow resetting of the message in the element.

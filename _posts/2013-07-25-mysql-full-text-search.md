@@ -4,7 +4,7 @@ title: MySQL Full-Text Search
 keywords: mysql, fulltext, search, full, text, websanova
 description: He was using a LIKE query with wild cards % to build his search. But this is actually not a good way to do search especially on large tables with lots of data.
 date: July 25 2013
-permalink: /blog/mysql/mysql-full-text-search.html
+permalink: /blog/mysql/mysql-full-text-search
 ---
 
 I was helping out a friend earlier today to setup a little search function on his website. He was using a `LIKE` query with wild cards `%` to build his search. But this is actually not a good way to do search especially on large tables with lots of data. It’s much more efficient to use an index and it’s actually quite simple to get something basic up and running on MySQL. I decided to write this brief beginner overview of doing search in MySQL which should help anyone get up and going. There are of course many things that can be tweaked and optimized based on exactly what it is you are trying to achieve but this should be a pretty nice starting point for those new to setting up a search on their websites or apps.

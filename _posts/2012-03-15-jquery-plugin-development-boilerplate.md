@@ -4,7 +4,7 @@ title: jQuery Plugin Development Boilerplate
 keywords: jquery, plugin, development, boilerplate
 description: This article goes over the Websanova jQuery plugin development boilerplate, it's functions and implementations.
 date: Mar 15 2012
-permalink: /blog/jquery/jquery-plugin-development-boilerplate.html
+permalink: /blog/jquery/jquery-plugin-development-boilerplate
 redirect_from: /tutorials/jquery/jquery-plugin-development-boilerplate.html
 ---
 

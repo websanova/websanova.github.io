@@ -4,7 +4,7 @@ title: jQuery Humanized Message Plugin
 keywords: jquery, humanized, message, msg, plugin
 description: Sample code an demo for the Websanova jQuery Humanized Message plugin.
 date: Apr 10 2012
-permalink: /blog/jquery/jquery-humanized-message-plugin.html
+permalink: /blog/jquery/jquery-humanized-message-plugin
 redirect_from: /tutorials/jquery/jquery-humanized-message-plugin.html
 ---
 
