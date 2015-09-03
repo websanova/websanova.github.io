@@ -4,7 +4,7 @@ title: jQuery .cssAll() – Retrieving Multiple CSS Properties
 keywords: jquery, plugin, javascript, css, cssall
 description: The current implementation of the .css() method in jQuery allows us to set multiple properties to an element, but only allows us to pull one property at a time.
 date: Nov 06 2012
-permalink: /blog/jquery/jquery-cssall-retrieving-multiple-css-properties
+permalink: /blog/jquery/jquery-cssall-retrieving-multiple-css-properties.html
 ---
 
 The current implementation of the `.css()` method in jQuery allows us to set multiple properties to an element, but only allows us to pull one property at a time. This is a little function I wrote for myself as I found myself sometimes wanting to pull more than one CSS property from an element at a time to assign to one or more other elements. It returns an object that can then easily be passed into another element using the `.css()` method.

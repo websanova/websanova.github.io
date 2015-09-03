@@ -4,7 +4,7 @@ title: 16 Step jQuery Plugin Development Lifecycle
 keywords: jquery, plugin, lifecycle
 description: Article outlines 16 steps involved in th jQuery plugin development lifecycle.
 date: Mar 5 2012
-permalink: /blog/jquery/16-step-jquery-plugin-development-lifecycle
+permalink: /blog/jquery/16-step-jquery-plugin-development-lifecycle.html
 redirect_from: /tutorials/jquery/16-step-jquery-plugin-development-lifecycle.html
 ---
 

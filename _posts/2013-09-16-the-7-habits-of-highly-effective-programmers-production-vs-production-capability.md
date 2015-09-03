@@ -4,7 +4,7 @@ title: "The 7 Habits of Highly Effective Programmers :: Production vs Production
 keywords: seven, haibits, production, capability
 description: From tips on effectiveness from The 7 Habits of Highly Effective People I wanted to take the concepts to programming. How can we apply these strategies to become better programmers.
 date: Sep 16 2013
-permalink: /blog/articles/the-7-habits-of-highly-effective-programmers-production-vs-production-capability
+permalink: /blog/articles/the-7-habits-of-highly-effective-programmers-production-vs-production-capability.html
 ---
 
 I recently read the book "7 Habits of Highly Effective People" which had the really interesting concept of production vs production capability (P / PC). I was discussing this with a friend but the concept was not entirely clear as I think the analogy given in the book about the machine is not that great and relevant. So I thought I would give an analogy relevant to programmers as I think the P / PC concept is something we can all relate too as developers and is a very powerful concept to understand and apply.

@@ -4,7 +4,7 @@ title: JavaScript ParseInt Radix
 keywords: javascript, jquery, parseint, radix, websanova
 description: Today I came across an error while I was linting my Intelligent RGB / HEX Converter Plugin code about requiring a radix value for parseInt(). After a quick look up on Google I could see that excluding this parameter could lead to some rather nasty bugs in your code.
 date: July 02 2013
-permalink: blog/javascript/javascript-parseint-radix
+permalink: blog/javascript/javascript-parseint-radix.html
 ---
 
 Today I came across an error while I was linting my [Intelligent RGB / HEX Converter Plugin](http://rgbhex.websanova.com) code about requiring a `radix` value for `parseInt()`. After a quick look up on Google I could see that excluding this parameter could lead to some rather nasty bugs in your code. The `radix` parameter is meant to specify the number system to use when parsing the value passed into `parseInt()`. So if we pass in a value of 16 then the number system used would be hexadecimal and a value of 8 would be octal.

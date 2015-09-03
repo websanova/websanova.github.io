@@ -4,7 +4,7 @@ title: Websanova JavaScript Extensions Project
 keywords: javascript, jquery, extension, project, plugin, websanova
 description: After finally catching up with a bunch of things on the blog we finally had a chance to work on the extensions page and got it up and running.
 date: July 16 2013
-permalink: /blog/javascript/websanova-javascript-extensions-project
+permalink: /blog/javascript/websanova-javascript-extensions-project.html
 ---
 
 After finally catching up with a bunch of things on the blog we finally had a chance to work on the extensions page and got it up and running. There aren’t too many extensions there yet but we will be adding more over the upcoming weeks as we have quite a large list of extensions to add. You can find out more info about the project on the [wExtensions GitHub Page](https://github.com/websanova/wExtensions).

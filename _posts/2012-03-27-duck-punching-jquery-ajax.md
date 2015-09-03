@@ -4,7 +4,7 @@ title: Duck Punching jQuery Ajax
 keywords: duck, punching, jquery, ajax
 description: An article describing the technique of duck punching with an example using jQuery $.ajax function.
 date: Mar 27 2012
-permalink: /blog/jquery/duck-punching-jquery-ajax
+permalink: /blog/jquery/duck-punching-jquery-ajax.html
 redirect_from: /tutorials/jquery/duck-punching-jquery-ajax.html
 ---
 

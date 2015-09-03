@@ -4,7 +4,7 @@ title: Publishing Node.js Packages to NPM
 keywords: nodejs, node, packages, package, npm, publish, javascript
 description: So how exactly do you make your JavaScript extensions, libraries and plugins work on Node.js. It's quite simple and we cover it in this article.
 date: Mar 27 2014
-permalink: /blog/node-js/publishing-node-js-packages-to-npm
+permalink: /blog/node-js/publishing-node-js-packages-to-npm.html
 ---
 
 So you’ve created a new shiny Node.js package and now you want to share it with the world. So where do you start? Well it’s actually quite simple using Node and all you really need is a valid `package.json` file. You can check out my [Creating a New Node.js Project](/blog/node-js/creating-a-new-node-js-project) post to help get things started. From there a single command will push your package to the NPM directory and make it available for anyone else to use within a matter of seconds.

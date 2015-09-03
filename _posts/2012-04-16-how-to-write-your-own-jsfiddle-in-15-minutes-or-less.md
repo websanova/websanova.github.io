@@ -4,7 +4,7 @@ title: How to Write Your Own JSFiddle (In 15 Minutes or Less)
 keywords: jsfiddle, javascript
 description: This article describes how to write your own simple version of a jsfiddle style application.
 date: Apr 16 2012
-permalink: /blog/jquery/how-to-write-your-own-jsfiddle-in-15-minutes-or-less
+permalink: /blog/jquery/how-to-write-your-own-jsfiddle-in-15-minutes-or-less.html
 redirect_from: /tutorials/jquery/how-to-write-your-own-jsfiddle-in-15-minutes-or-less.html
 ---
 

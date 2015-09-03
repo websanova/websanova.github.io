@@ -4,7 +4,7 @@ title: Extending JavaScript - The Right Way
 keywords: extending, javascript, right, way
 description: An article highlighting how to extend JavaScript correctly to avoid issues with namespacing and the global object scope.
 date: Apr 3 2012
-permalink: /blog/javascript/extending-javascript-the-right-way
+permalink: /blog/javascript/extending-javascript-the-right-way.html
 redirect_from: /tutorials/javascript/extending-javascript-the-right-way.html
 ---
 

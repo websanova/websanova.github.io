@@ -4,7 +4,7 @@ title: One Virtual Host to Rule Them All
 keywords: apache, virtual, host, virtualhost, websanova 
 description: We have quite a few plugins on Websanova now and it was becoming cumbersome to constantly add new VirtualHost directives for each new plugin. We wanted to automate and streamline this a little bit so that we could just drop in a plugin folder and automatically have it served by Apache with no additional configuration.
 date: Aug 13 2013
-permalink: /blog/apache/one-virtual-host-to-rule-them-all
+permalink: /blog/apache/one-virtual-host-to-rule-them-all.html
 ---
 
 Had a bit of head scratching on this one this morning so thought I would share. We have quite a few [plugins](/plugins) on Websanova now and it was becoming cumbersome to constantly add new `VirtualHost` directives for each new plugin. We wanted to automate and streamline this a little bit so that we could just drop in a plugin folder and automatically have it served by Apache with no additional configuration. This can be achieved by using the `VirtualDocumentRoot container rather than the `DocumentRoot` container in what is known as [dynamically configured mass virtual hosting](http://httpd.apache.org/docs/2.2/vhosts/mass.html). Setting this is up is really simple once you figure out the syntax and it’s quite effective.

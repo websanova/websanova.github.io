@@ -4,7 +4,7 @@ title: HTML5 jQuery Paint Plugin
 keywords: html5, jquery, wpaint, paint, plugin
 description: Sample code and demo of the Websanova wPaint jQuery plugin.
 date: Apr 17 2012
-permalink: /blog/jquery/html5-jquery-paint-plugin
+permalink: /blog/jquery/html5-jquery-paint-plugin.html
 redirect_from: /tutorials/jquery/html5-jquery-paint-plugin.html
 ---
 

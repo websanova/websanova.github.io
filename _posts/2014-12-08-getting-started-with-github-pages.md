@@ -4,7 +4,7 @@ title: Getting Started With GitHub Pages
 keywords: github, pages, gh-pages, repository, jekyll
 description: A short guide describing how to setup a simple blog on GitHub Pages.
 date: Dec 08 2014
-permalink: /blog/github/getting-started-with-github-pages
+permalink: /blog/github/getting-started-with-github-pages.html
 ---
 
 Getting a blog setup on GitHub Pages is actually quite simple...once you know how to do it. However I found the basics on this quite confusing and didn't find a concise A to B article to get something basic going. Not to mention throwing in Jekyll in there and figuring out how that ties in.

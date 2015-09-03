@@ -4,7 +4,7 @@ title: Simple, Lighweight jQuery Pagination Plugin
 keywords: jquery, javascript, plugin, websanova, wpaginate, paginate, pagination
 description: A simple lightweight jQuery pagination plugin. Comes with ajax support allowing you to customize for your needs.
 date: Nov 18 2012
-permalink: /blog/jquery/simple-lighweight-jquery-pagination-plugin
+permalink: /blog/jquery/simple-lighweight-jquery-pagination-plugin.html
 ---
 
 After some frustration trying some jQuery pagination plugins I found on Google, many of which were written using jQuery 1.3 or 1.4, I decided to write a new one as it seems one was needed. This pagination plugin is very lightweight and flexible and has ajax support allowing you to customize it for your own needs. It comes pretty standard out of the box with what you would expect. There are four basic parameters for setting `total`, `index`, `limit` and the `url`.

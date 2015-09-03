@@ -4,7 +4,7 @@ title: Timezones, the Right Way
 keywords: mysql, websanova, timzones
 description: Covers handling timezones in MySql
 date: Dec 12 2012
-permalink: /blog/php/timezones-the-right-way
+permalink: /blog/php/timezones-the-right-way.html
 ---
 
 This is a little article on how to deal with timezones when storing dates/times in your database. The database or language you choose to use really doesn’t matter as the concepts are universal but I will be giving examples using MySQL and PHP. Timezones are actually a very trivial concept but they seem to be overlooked and over complicated. Typically when you setup a database or are using some web hosting service there will be some default timezones set. This default is okay if you have one server, but what happens if you decided to move your server or have multiple servers in different locations?

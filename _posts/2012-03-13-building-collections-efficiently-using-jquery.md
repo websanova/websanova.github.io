@@ -4,7 +4,7 @@ title: Building Collections Efficiently Using jQuery
 keywords: collection, efficient, jquery
 description: The article covers building collections efficiently using jQuery, particularly the clone function.
 date: Mar 13 2012
-permalink: /blog/jquery/building-collections-efficiently-using-jquery
+permalink: /blog/jquery/building-collections-efficiently-using-jquery.html
 redirect_from: /tutorials/jquery/building-collections-efficiently-using-jquery.html
 ---
 

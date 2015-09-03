@@ -4,7 +4,7 @@ title: Global Data in Laravel
 keywords: laravel, ioc, facade, service, provider, facades, services, data
 description: Setting up a global Data store in Laravel for easy use in Controllers, Models and Views.
 date: Jul 23 2014
-permalink: /blog/laravel/global-data-in-laravel
+permalink: /blog/laravel/global-data-in-laravel.html
 ---
 
 I’ve been using Laravel for a while now and one thing that has always bothered me is that there isn’t any kind of global “data” store to use in requests. A typical setup is to pass data into the view by setting the layout in the `BaseController` and using `$this->layout->with()` in our controller methods.

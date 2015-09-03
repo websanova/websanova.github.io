@@ -4,7 +4,7 @@ title: Websanova is Tracking MLB.com
 keywords: mlb, tracking, websanova
 description: After seeing a little spike in traffic on Analytics I did some further investigation. Lo and behold Websanova is tracking MLB.com!
 date: Mar 26 2014
-permalink: /blog/articles/websanova-is-tracking-mlb-com
+permalink: /blog/articles/websanova-is-tracking-mlb-com.html
 ---
 
 I just checked my analytics tracking this afternoon with a pleasant surprise to see a nice little spike in my traffic. I don’t get all that much traffic so even a little spike is enough to get me excited. I have been writing some articles on Node.js lately but nothing too fancy nor have I focused on any kind of promotion or SEO for these articles. As I begin to investigate the source of the traffic I noticed some odd domains appearing in my stats.

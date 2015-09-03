@@ -4,7 +4,7 @@ title: Installing Node.js with Nginx Proxy
 keywords: nodejs, node, nginx, proxy, windows, ubuntu
 description: Node.js is great for serving app. But it becomes cumbersome to deal with static files. It's much better to let an existing server such as Nginx handle this which it already does so well.
 date: Mar 08 2014
-permalink: /blog/nginx/installing-node-js-with-nginx-proxy
+permalink: /blog/nginx/installing-node-js-with-nginx-proxy.html
 ---
 
 Setting up a node.js server is very easy and only takes about a minute or two to get a basic "Hello World" example going. The thing is your `Node.js` instance only runs one app so you will need multiple instances on multiple ports to run separate apps. Chances are you will probably want to run these on port `80` like a standard web app so this requires the use of a web server like Nginx to act as a proxy between requests.

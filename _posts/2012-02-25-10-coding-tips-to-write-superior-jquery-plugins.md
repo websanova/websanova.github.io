@@ -4,7 +4,7 @@ title: 10 Coding Tips to Write Superior jQuery Plugins
 keywords: jquery, plugins
 description: A guide with some useful tips for writing elegant jQuery plugins.
 date: Feb 25 2012
-permalink: /blog/jquery/10-coding-tips-to-write-superior-jquery-plugins
+permalink: /blog/jquery/10-coding-tips-to-write-superior-jquery-plugins.html
 redirect_from: /tutorials/jquery/10-coding-tips-to-write-superior-jquery-plugins.html
 ---
 

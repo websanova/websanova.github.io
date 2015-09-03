@@ -4,7 +4,7 @@ title: Why JavaScript For In Loops Are Bad
 keywords: javascript, for, forin, loops, bad
 description: An article discussing the pitfalls of using for-in loops in JavaScript and how to avoid them.
 date: Apr 11 2012
-permalink: /blog/javascript/why-javascript-for-in-loops-are-bad
+permalink: /blog/javascript/why-javascript-for-in-loops-are-bad.html
 redirect_from: /tutorials/javascript/why-javascript-for-in-loops-are-bad.html
 ---
 
