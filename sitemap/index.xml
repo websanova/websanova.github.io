@@ -1,0 +1,58 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	
+	<title type="text" xml:lang="en">Websanova Blog</title>
+	<link type="application/atom+xml" href="http://websanova.com/feed/" rel="self"/>
+ 	<link type="text" href="http://websanova.com" rel="alternate"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://websanova.com</id>
+	<author>
+		<name>Websanova</name>
+	</author>
+	
+	<entry>
+		<title>Blog</title>
+		<link href="http://websanova.com/blog"/>
+		<updated>{{ site.posts[0].date | date_to_xmlschema }}</updated>
+		<id>http://websanova.com/blog</id>
+		<content type="html">Websanova is a blog dedicated to web development.</content>
+	</entry>
+	<entry>
+		<title>Blog</title>
+		<link href="http://websanova.com/blog"/>
+		<updated>{{ site.posts[0].date | date_to_xmlschema }}</updated>
+		<id>http://websanova.com/blog</id>
+		<content type="html">Websanova is a blog dedicated to web development.</content>
+	</entry>
+	<entry>
+		<title>Plugins</title>
+		<link href="http://websanova.com/plugins"/>
+		<id>http://websanova.com/plugins</id>
+		<content type="html">Websanova plugins and packages for jQuery and Laravel.</content>
+	</entry>
+	<entry>
+		<title>Projects</title>
+		<link href="http://websanova.com/projects"/>
+		<id>http://websanova.com/projects</id>
+		<content type="html">Various work projects, pet projects, e-book and games.</content>
+	</entry>
+	<entry>
+		<title>Serach</title>
+		<link href="http://websanova.com/search"/>
+		<id>http://websanova.com/search</id>
+		<content type="html">Websanova search.</content>
+	</entry>
+
+	{% for post in site.posts %}
+	<entry>
+		<title>{{ post.title | xml_escape }}</title>
+		<link href="http://websanova.com{{ post.url }}"/>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<id>http://websanova.com{{ post.id }}</id>
+		<content type="html">{{ post.description | xml_escape }}</content>
+	</entry>
+	{% endfor %}
+</feed>
