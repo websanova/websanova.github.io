@@ -4,6 +4,7 @@ title: wScratchPad 2.0.0 Released
 keywords: jquery, scratchpad, scratch, pad, plugin, scratchcard, card, plugin
 description: Websanova wScratchPad 2.0.0 finally released. After lots of feedback we have released a new version of the popular JavaScript scratch pad plugin.
 date: Apr 05 2014
+img: /wp-content/uploads/2014/04/wscratchpad-version-2-released.png
 permalink: /blog/jquery/wscratchpad-2-0-0-released.html
 ---
 

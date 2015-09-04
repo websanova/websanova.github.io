@@ -4,6 +4,7 @@ title: Publishing Node.js Packages to NPM
 keywords: nodejs, node, packages, package, npm, publish, javascript
 description: So how exactly do you make your JavaScript extensions, libraries and plugins work on Node.js. It's quite simple and we cover it in this article.
 date: Mar 27 2014
+img: /wp-content/uploads/2014/03/publishing-nodejs-packages-npm.png
 permalink: /blog/node-js/publishing-node-js-packages-to-npm.html
 ---
 

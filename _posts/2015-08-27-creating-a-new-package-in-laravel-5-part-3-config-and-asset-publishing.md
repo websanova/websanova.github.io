@@ -3,8 +3,9 @@ layout: master
 title: "Creating a Laravel 5.x Package :: Part 3 - Config and Asset Publishing"
 keywords: php, laravel, package, creating, assets, publishing, config, configuration, websanova
 description: In Part 3 we will build on what we learned in part 2. We will cover configuration files and publishing our package so that views and configs can be overwritten within an app.
-permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing.html
 date: Aug 27 2015
+img: /img/logo-200x200.png
+permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing.html
 ---
 
 * [Part 1 - Package Workflow](/blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow)

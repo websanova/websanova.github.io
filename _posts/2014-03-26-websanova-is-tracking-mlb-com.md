@@ -4,6 +4,7 @@ title: Websanova is Tracking MLB.com
 keywords: mlb, tracking, websanova
 description: After seeing a little spike in traffic on Analytics I did some further investigation. Lo and behold Websanova is tracking MLB.com!
 date: Mar 26 2014
+img: /wp-content/uploads/2014/03/websanova-is-tracking-mlb.png
 permalink: /blog/articles/websanova-is-tracking-mlb-com.html
 ---
 

@@ -4,6 +4,7 @@ title: Url.js for Node is Finally Here
 keywords: nodejs, node, url, javascript, package
 description: After the popularity of the websanova url.js package we got a lot of requests for a node.js version. Wait no longer, it's finally here.
 date: Apr 01 2014
+img: /wp-content/uploads/2014/03/url-js-for-node-finally-here.png
 permalink: /blog/node-js/url-js-for-node-is-finally-here.html
 ---
 

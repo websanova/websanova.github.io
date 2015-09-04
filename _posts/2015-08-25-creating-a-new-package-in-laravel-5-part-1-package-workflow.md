@@ -3,8 +3,9 @@ layout: master
 title: "Creating a Laravel 5.x Package :: Part 1 - Package Workflow"
 keywords: php, laravel, package, creating, development, publish, publishing, version, websanova
 description: Creating a new package in Laravel can be a confusing process. In Part 1 we cover the process from setting up to publishing our packages.
-permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow.html
 date: Aug 25 2015
+img: /img/logo-200x200.png
+permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow.html
 ---
 
 * [Part 1 - Package Workflow](/blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow)

@@ -4,6 +4,7 @@ title: Writing Unit Tests in Node.js
 keywords: nodejs, node, assert, tests, unit, strict, equal, strictequal, node.js, deepequal
 description: An important part of Node.js will be writing unit tests for your apps and it’s modules. Like most of Node.js the basics of setting this up is a snap and you can begin writing unit tests in not time.
 date: Mar 25 2014
+img: /wp-content/uploads/2014/03/writing-unit-test-in-nodejs.png
 permalink: /blog/node-js/writing-unit-tests-in-node-js.html
 ---
 

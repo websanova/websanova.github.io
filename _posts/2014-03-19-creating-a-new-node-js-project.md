@@ -4,6 +4,7 @@ title: Creating a New Node.js Project
 keywords: nodejs, project, package, json, package json, npm, install, npm install, npm update, update
 description: So you've decided to dive into Node.js but you're not quite sure how to start. This article covers the simple process of getting your feet wet with Node.js.
 date: Mar 19 2014
+img: /wp-content/uploads/2014/03/creating-a-new-nodejs-project.png
 permalink: /blog/node-js/creating-a-new-node-js-project.html
 ---
 
