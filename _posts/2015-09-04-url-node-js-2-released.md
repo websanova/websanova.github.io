@@ -1,6 +1,6 @@
 ---
 layout: master
-title: Websanova url.js for Web and Node.js Released.
+title: Websanova url.js v2.0.0 for Web and Node.js Released.
 keywords: websanova, jquery, javascript, nodejs, node, js, url, wurl, parser, released
 description: The websanova url.js parser has released version 2.0.0. The new version now features the much anticipated tld and sub domain support.
 date: Sep 04 2015
