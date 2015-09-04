@@ -4,6 +4,7 @@ title: Serving pages dynamically with Node.js
 keywords: nodejs, node, http, file, html, server, mime
 description: Setting up a basic HTTP server in Node.js is as simple as copy and pasting five lines of code. However if we will want to create something more appropriate for websites and handle our pages more dynamically.
 date: Mar 10 2014
+img: /wp-content/uploads/2014/03/serving-pages-dynamically-with-nodejs.png
 permalink: /blog/node-js/serving-pages-dynamically-with-node-js.html
 ---
 

@@ -4,6 +4,7 @@ title: 10 Reasons Why Laravel is Better Than CodeIgniter
 keywords: laravel,codeigniter,framework,facade,eloquent,orm,blade,routing,rest
 description: Yep another post on why you should switch to Laravel from CodeIgniter. I’ve been using CodeIgniter for about three years now and still continue to do so on some projects. However since I decided to finally give Laravel a whirl, it’s been no looking back.
 date: Feb 11 2014
+img: /wp-content/uploads/2014/02/10-reasons-why-laravel-is-better-than-codeigniter.png
 permalink: /blog/laravel/10-reasons-why-laravel-is-better-than-codeigniter.html
 ---
 

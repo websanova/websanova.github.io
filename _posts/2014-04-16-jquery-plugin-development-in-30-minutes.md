@@ -4,6 +4,7 @@ title: jQuery Plugin Development in 30 Minutes
 keywords: jquery, plugin, development, book, ebook, in30minutes
 description: jQuery Plugin Development in30Minutes ebook released by Websanova.
 date: Apr 16 2014
+img: /wp-content/uploads/2014/04/jquery-plugin-development-in-30-minutes-blog-post.png
 permalink: /blog/jquery/jquery-plugin-development-in-30-minutes.html
 ---
 

@@ -4,6 +4,7 @@ title: "The 7 Habits of Highly Effective Programmers :: Production vs Production
 keywords: seven, haibits, production, capability
 description: From tips on effectiveness from The 7 Habits of Highly Effective People I wanted to take the concepts to programming. How can we apply these strategies to become better programmers.
 date: Sep 16 2013
+img: /wp-content/uploads/2013/09/7-habits-production-vs-production-capability.png
 permalink: /blog/articles/the-7-habits-of-highly-effective-programmers-production-vs-production-capability.html
 ---
 

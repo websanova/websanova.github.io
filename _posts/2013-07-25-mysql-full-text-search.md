@@ -4,6 +4,7 @@ title: MySQL Full-Text Search
 keywords: mysql, fulltext, search, full, text, websanova
 description: He was using a LIKE query with wild cards % to build his search. But this is actually not a good way to do search especially on large tables with lots of data.
 date: July 25 2013
+img: /wp-content/uploads/2013/07/mysql-full-text-search.png
 permalink: /blog/mysql/mysql-full-text-search.html
 ---
 

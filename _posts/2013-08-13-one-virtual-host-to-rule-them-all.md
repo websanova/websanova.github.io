@@ -4,6 +4,7 @@ title: One Virtual Host to Rule Them All
 keywords: apache, virtual, host, virtualhost, websanova 
 description: We have quite a few plugins on Websanova now and it was becoming cumbersome to constantly add new VirtualHost directives for each new plugin. We wanted to automate and streamline this a little bit so that we could just drop in a plugin folder and automatically have it served by Apache with no additional configuration.
 date: Aug 13 2013
+img: /wp-content/uploads/2013/08/one-virtual-host-to-rule-them-all.png
 permalink: /blog/apache/one-virtual-host-to-rule-them-all.html
 ---
 

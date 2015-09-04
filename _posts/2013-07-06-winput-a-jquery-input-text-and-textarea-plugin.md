@@ -4,6 +4,7 @@ title: wInput - A jQuery Input Text and Textarea Plugin
 keywords: javascript, jquery, input, textarea, text, websanova
 description: This is a simple plugin for text boxes and textarea inputs that gives us clean looking text boxes and takes care of backwards compatibility for placeholder attributes. 
 date: July 06 2013
+img: /img/logo-200x200.png
 permalink: /blog/jquery/winput-a-jquery-input-text-and-textarea-plugin.html
 ---
 

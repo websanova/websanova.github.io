@@ -4,6 +4,7 @@ title: Installing Node.js with Nginx Proxy
 keywords: nodejs, node, nginx, proxy, windows, ubuntu
 description: Node.js is great for serving app. But it becomes cumbersome to deal with static files. It's much better to let an existing server such as Nginx handle this which it already does so well.
 date: Mar 08 2014
+img: /wp-content/uploads/2014/03/installing-nodejs-with-nginx-proxy.png
 permalink: /blog/nginx/installing-node-js-with-nginx-proxy.html
 ---
 

@@ -4,6 +4,7 @@ title: A More Powerful Trim()
 keywords: javascript, jquery, trim, websanova
 description: I came across the situation the other day where I needed to trim a string. However I didn’t need to trim white space characters, I needed to trim some dollar ($) sign characters.
 date: July 17 2013
+img: /wp-content/uploads/2013/07/a-more-powerful-trim.png
 permalink: /blog/javascript/a-more-powerful-trim.html
 ---
 

@@ -4,6 +4,7 @@ title: wSelect - A jQuery Select Box Plugin
 keywords: javascript, jquery, select, box, plugin, websanova
 description: The current state of select boxes on the web are just plain ugly and limited in functionality. We wanted to create a select box plugin that could be fully customizable in appearance for one.
 date: July 03 2013
+img: /img/logo-200x200.png
 permalink: /blog/jquery/wselect-a-jquery-select-box-plugin.html
 ---
 

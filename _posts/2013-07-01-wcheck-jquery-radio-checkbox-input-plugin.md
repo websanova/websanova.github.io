@@ -4,6 +4,7 @@ title: wCheck - jQuery Radio & Checkbox Input Plugin
 keywords: wcheck, jquery, radio, checkbox, input, plugin, websanova
 description: I find that the appearance of radio and checkbox inputs has always been limited. Some browsers have allowed some modification of these elements but for the most part it’s quite difficult to get them to look good and fit in with more colorful designs.
 date: July 01 2013
+img: /img/logo-200x200.png
 permalink: /blog/jquery/wcheck-jquery-radio-checkbox-input-plugin.html
 ---
 

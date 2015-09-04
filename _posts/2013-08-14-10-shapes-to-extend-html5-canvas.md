@@ -4,6 +4,7 @@ title: 10 Shapes to Extend HTML5 Canvas
 keywords: html5, canvas, shapes, draw, paint, wpaint
 description: Today we extended HTML5 Canvas to easily allow drawing some shapes through the use of simple methods.
 date: Aug 14 2013
+img: /wp-content/uploads/2013/08/10-shapes-to-extend-html5-canvas.png
 permalink: /blog/html5/10-shapes-to-extend-html5-canvas.html
 ---
 
