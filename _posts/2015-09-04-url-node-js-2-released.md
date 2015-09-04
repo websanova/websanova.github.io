@@ -16,19 +16,19 @@ It's been a while so we finally decided to rewrite an old goody to add some more
 List of changes here:
 
 * Support for tld, domain and sub domain.
-* Comes in two versions url-tld.min.js and url.min.js.
+* Comes in two versions `url-tld.min.js` and `url.min.js`.
 * Support for arrays in query and hash parameters.
 * Support for mailto: protocol.
-* Passing url('[]') now returns entire parsed object for url.
-* Passing url('?') now returns all query parameters as an object.
-* To get entire query string use url('query')
-* Passingurl('#') now returns all hash parameters as an object.
-* To get entire hash string use url('hash')
-* The tld, domain and sub arguments are all disabled for the non tld version.
-* For tld version tld, domain and sub now return appropriate values (if tld matches).
-* You can now use url('/1') or just url(1) for fetching path parts.
-* Passing url('/') will return all path parts as an array.
-* Passing url('.') will return all domain parts as an array.
+* Passing `url('[]')` now returns entire parsed object for url.
+* Passing `url('?')` now returns all query parameters as an object.
+* To get entire query string use `url('query')`
+* Passing `url('#')` now returns all hash parameters as an object.
+* To get entire hash string use `url('hash')`
+* The `tld`, `domain` and `sub` arguments are all disabled for the non tld version.
+* For tld version `tld`, `domain` and `sub` now return appropriate values (if tld matches).
+* You can now use `url('/1')` or just `url(1)` for fetching path parts.
+* Passing `url('/')` will return all path parts as an array.
+* Passing `url('.')` will return all domain parts as an array.
 * If no matches found returns undefined now in most cases.
 * Smaller file size, more efficient, simpler code.
 
