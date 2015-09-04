@@ -7,9 +7,13 @@ page: true
 ---
 
 {% for post in paginator.posts %}
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<time class="date">{{ post.date | date: '%B %d %Y'  }}</time>
-	<div class="description">{{ post.description }}</div>
+	<div style="position: relative; padding-left: 110px; min-height: 100px; margin-bottom: 15px;">
+		<img style="position: absolute; left: 0px; top: 0px; width: 100px; height: 100px;" src="/img/logo-200x200.png" />
+
+		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<time class="date">{{ post.date | date: '%B %d %Y'  }}</time>
+		<div class="description">{{ post.description }}</div>
+	</div>
 {% endfor %}
 
 <div class="pagination">
