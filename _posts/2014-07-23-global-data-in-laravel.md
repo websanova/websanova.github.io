@@ -4,6 +4,7 @@ title: Global Data in Laravel
 keywords: laravel, ioc, facade, service, provider, facades, services, data
 description: Setting up a global Data store in Laravel for easy use in Controllers, Models and Views.
 date: Jul 23 2014
+img: /wp-content/uploads/2014/07/global-data-in-laravel.png
 permalink: /blog/laravel/global-data-in-laravel.html
 ---
 
