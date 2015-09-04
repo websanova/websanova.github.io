@@ -8,7 +8,7 @@ page: true
 
 {% for post in paginator.posts %}
 	<div style="position: relative; padding-left: 110px; min-height: 100px; margin-bottom: 15px;">
-		<img style="position: absolute; left: 0px; top: 0px; width: 100px; height: 100px;" src="{{ site.url }}{{ post.img }}" />
+		<img style="position: absolute; left: 0px; top: 0px; width: 100px; height: 100px;" src="http://{{ site.url }}{{ post.img }}" />
 
 		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 		<time class="date">{{ post.date | date: '%B %d %Y'  }}</time>
