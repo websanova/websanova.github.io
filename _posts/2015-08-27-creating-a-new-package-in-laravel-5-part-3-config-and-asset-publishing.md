@@ -17,7 +17,7 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-a
 
 ## Intro
 
-From part 2 of the series we already have quite enough setup to start building some packages. However if your package starts getting complex you will probably for one want to create some kind of configuration file. Secondly you will want a way for developers using your package to make modifications to config parameters, views and any other assets from your package.
+From part 2 of the series we already have quite enough setup to start building some packages. However if your package starts getting complex you will probably want to create some kind of configuration file. Secondly you will want a way for developers using your package to make modifications to config parameters, views and any other assets from your package.
 
 ## Config
 
@@ -74,7 +74,7 @@ public function boot()
 }
 ~~~
 
-Fortunately here we can just publish the entire `config` directory in this case. We can then just execute the `vendor:publish` command and it will copy our files over.
+We can just publish the entire `config` directory in this case. We can then just execute the `vendor:publish` command and it will copy our files over.
 
 ~~~
 > php artisan vendor:publish
@@ -82,7 +82,7 @@ Fortunately here we can just publish the entire `config` directory in this case.
 
 If you navigate to your Laravel installation you should see the `config/websanova-demo/main.php` file now. There you can overwrite any parameters.
 
-Note that if you keep running publish it will not replace the file. To get a fresh copy of a particular file you will need to remove the file first and then run `vendor:publish` again.
+**Note:** If you keep running publish it will not replace the file. To get a fresh copy of a particular file you will need to remove the file first and then run `vendor:publish` again.
 
 ## Publishing Views
 
@@ -105,7 +105,7 @@ From here we can just run `vendor:publish` one more time. Again note that this w
 
 ## Force Publishing and Groups
 
-When we are testing your package, particularly with migrations you may need to publish your package multiple times. You can use the `--force` option in this case. Just be careful with it's usage as it will overwrite all local changes in the app.
+When we are testing a package, particularly with migrations you may need to publish your package multiple times. You can use the `--force` option in this case. Just be careful with it's usage as it will overwrite all local changes in the app.
 
 ~~~
  > php artisan vendor:publish --force
@@ -142,4 +142,4 @@ You can follow the same pattern for publishing other assets like javascript, css
 
 ## Conclusion
 
-We have take an extra step to your package development and covered two additional critical areas. Configs and asset publishing allowing developers to customize our packages for their own needs.
+We have taken an extra step in package development and covered two additional critical areas. Configs and asset publishing allowing developers to customize packages for their own needs.

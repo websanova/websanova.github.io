@@ -17,11 +17,11 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-mig
 
 ## Intro
 
-For part 3 of the series we will cover some basic migrations and seeding as it pertains to package development.
+For part 4 of the series we will cover some basic migrations and seeding as it pertains to package development.
 
 Some packages will require a database but sometimes we just need it for our own local testing while developing a package. In particular if it's a package that extends Eloquent or other database operations.
 
-For package testing I prefer to just use `sqlite` as I find it's easites to use for isolated local testing. However, if you're using eloquent really it should work on all supported databases. It's a good idea to document this in your packages README file in case there are issues.
+For package testing I prefer to just use `sqlite` as I find it's easiest to use for isolated local testing. However, if you're using eloquent it should work on all supported databases. It's a good idea to document this in your packages `README` file in case there are issues.
 
 ## Setting up the DB
 
@@ -95,7 +95,7 @@ Generally you will want to set it up this way if developers need to have that as
 
 Again we could use our `--force` and `--provider` flags as necessary.
 
-If the tables are strictly used for package testing then I would not add this method. In this case we can just run it directly use `--path` option.
+If the tables are strictly used for package testing then I would not use the above method. We can just run it directly using `--path` option.
 
 ~~~
 > php artisan migrate --path=/packages/websanova/demo/src/migrations

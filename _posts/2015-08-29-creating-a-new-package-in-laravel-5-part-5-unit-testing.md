@@ -17,9 +17,9 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing
 
 ## Intro
 
-In this final part of the series we cover perhaps the most important and often overlooked part of package development. Unit testing ensures greater stability as we and others improve and update the package. Without even some basic unit testing it makes it hard to maintain the package as it evolves over time.
+In this final part of the series we cover perhaps the most important and often overlooked part of package development. Unit testing ensures greater stability as yourself and others improve and update the package. Without even some basic unit testing it makes it hard to maintain the package as it evolves over time.
 
-## Install `phpunit`
+## Install phpunit
 
 We will need to install `phpunit` into each of our Laravel install directories. Let's open the `composer.json` file in whatever version of Laravel you want to run the tests from.
 
@@ -38,7 +38,7 @@ The version at the time of this writing was `4.8.1`, but you can just check [Pac
 
 ## Create `phpunit.xml`
 
-The next step is to create the `phpunit.xml` file in the root of our package. We can just use the sample below to start but of course you can put in your won configuration as well.
+The next step is to create the `phpunit.xml` file in the root of our package. We can just use the sample below to start but of course you can put in your own configuration as well.
 
 ~~~
 // packages/websanvoa/demo/phpunit.xml
@@ -78,7 +78,7 @@ class DemoTest extends TestCase
 }
 ~~~
 
-## Running `phpunit`
+## Running phpunit
 
 Now we will need to run `phpunit` from the packages directory we want to test from.
 
@@ -93,4 +93,4 @@ We do it this way so that we can include the `phpunit.xml` file for our package 
 
 We didn't get into specific testing concepts as there is a lot of great material on the web for that topic already. The idea was just to get your tests setup with your package.
 
-This the end of the series and pretty much wraps up package development. Hopefully you will now have all the tools you need to build your own packages.
+This concludes the series and pretty much wraps up package development. Hopefully you will now have all the tools you need to build your own packages.
