@@ -1,6 +1,6 @@
 ---
 layout: master
-title: "Creating a Laravel 5.x Package :: Part 2 - Basic Development"
+title: "Creating a Laravel 5.x Package :: Part 2 - Controllers, Routes and Views"
 keywords: php, laravel, package, creating, development, controller, view, routes, service provider, service, provider, facade, websanova
 description: In Part 2 we cover some basic package development. We cover, controllers, views and routes and get some working code up and running.
 date: Aug 26 2015
@@ -19,9 +19,9 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-
 
 For part 2 of the Laravel Package Creation series we will jump straight into development and get some working coding. We will cover `routes`, `controllers` and `views`.
 
-## `src` Folder
+## src Folder
 
-You can pretty much create whatever structure you like within your package. However it's best practice to have a `src directory to keep all your code in along with the composer.json file at the root of the project.
+You can pretty much create whatever structure you like within your package. However it's best practice to have a `src` directory to keep all your code in along with the `composer.json` file at the root of the project.
 
 ~~~
 .\pacakges\websanova\demo\src
@@ -61,9 +61,9 @@ It really depends what kind of package we are developing, but for the sake of si
 
 ## Laravel
 
-Next we will need to update each version of Laravel we want to test our package in. This will usually only include updating the `config/app.php` file with appropriate Facades and ServiceProviders. We will also need to update the composer.json file to tell it where to find our package.
+Next we will need to update each version of Laravel we want to test our package in. This will usually only include updating the `config/app.php` file with appropriate facades and service providers. We will also need to update the `composer.json` file to tell it where to find our package.
 
-~~~
+```php
 // config/app.php
 
 'providers' => [
@@ -89,7 +89,7 @@ Next we will need to update each version of Laravel we want to test our package 
 },
 
 ...
-~~~
+```
 
 ## Package Class
 

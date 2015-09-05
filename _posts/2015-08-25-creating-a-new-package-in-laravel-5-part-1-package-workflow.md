@@ -17,7 +17,7 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-work
 
 ## Intro
 
-I see lots of tutorials jumping right into development, but let's start with some simple setup. You'll probably want to keep your project in source control and although you may develop for current version `5.1.x` for instance. The speed at which Laravel is updating means you will probably need to test for multiple versions in the near future. A few questions you will probably ask yourself.
+I see lots of tutorials jumping right into development, but let's start with some simple setup. You'll probably want to keep your project in source control and although you may develop for current version, `5.1.x` for instance. The speed at which Laravel is updating means you will probably need to test for multiple versions in the near future. A few questions you will probably ask yourself.
 
 * Where do I keep all my packages?
 * How to deal with multiple repositories (GitHub)?
@@ -30,7 +30,7 @@ I have yet to find a comprehensive guide on Laravel packages that covers the ful
 
 ## Folder Structure
 
-First off let's create our folders. Keep in mind we want to take in account multiple packages all with their own repository and different versions of Laravel.
+First off let's create our folders. Keep in mind we want to take into account multiple packages, each of which has it's own repository and different versions of Laravel.
 
 ~~~
 ./laravel-packages/laravel/4.x.x
@@ -82,7 +82,7 @@ Since we are just testing a package we don't have to worry about servers. We wil
 php artisan serve
 ~~~
 
-We can also but multiple servers using the `--port` flag.
+We can also run multiple servers using the `--port` flag.
 
 ~~~
 php artisan serve --port 8001
@@ -92,7 +92,7 @@ php artisan serve --port 8001
 
 For now we will just go with the minimum configuration required for the `composers.json` file. We will add to it as we go along with our packages development later on.
 
-Note that this is the packages composer.json file, which has nothing to do with the Laravel/Lumen composer.json file. This file should be located at the root of your packages directory.
+Note that this is the packages `composer.json` file, which has nothing to do with the Laravel/Lumen `composer.json` file. This file should be located at the root of your packages directory.
 
 ~~~
 ./laravel-packages/packages/websanova/demo/composer.json
@@ -122,7 +122,7 @@ Although we don't have any working code yet we can go ahead and publish the pack
 
 Once registered it's as easy as submitting your GitHub link on the [Packagist Submit](https://packagist.org/packages/submit) page. As long as you have a valid `composer.json` file at the root of your project, Packagist will scan it and automatically setup the project for you.
 
-From there you can visit your packages Packagist.org page and hit update anytime you need to update the package. You can also setup up a commit hook to auto publish when ever you push code up to your repository. More information on setting up the hook can be found on the [Packagist.org How to Update Packages](https://packagist.org/about#how-to-update-packages) page.
+From there you can visit your packages [Packagist.org](https://packagist.org) page and hit update anytime you need to update the package. You can also setup up a commit hook to auto publish when ever you push code up to your repository. More information on setting up the hook can be found on the [Packagist.org How to Update Packages](https://packagist.org/about#how-to-update-packages) page.
 
 ## Package Versions
 
