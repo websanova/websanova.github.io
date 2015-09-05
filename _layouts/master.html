@@ -52,6 +52,9 @@
 			border: solid #5a5a5a 1px;
 			color: #5a5a5a;
 		}
+		.websanova-plugins-page-horizontal-responsive-max { display:block; width: 320px; height: 50px; margin: 15px auto 0 auto; }
+		@media(min-width: 520px) { .websanova-plugins-page-horizontal-responsive-max { width: 468px; height: 60px; } }
+		@media(min-width: 768px) { .websanova-plugins-page-horizontal-responsive-max { width: 728px; height: 90px; } }
 	</style>
 
 	<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -69,7 +72,7 @@
 		
 		{% if page.page != true %}
 			<!-- google adsense -->
-			<ins class="adsbygoogle" data-ad-client="ca-pub-3292441848617055" data-ad-slot="4745240138"></ins>
+			<ins class="adsbygoogle websanova-plugins-page-horizontal-responsive-max" style="margin:20px 0;" data-ad-client="ca-pub-3292441848617055" data-ad-slot="4745240138"></ins>
 			<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 		
 			<h1>{{ page.title }}</h1>
