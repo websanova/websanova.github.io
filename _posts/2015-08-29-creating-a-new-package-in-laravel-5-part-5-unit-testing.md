@@ -36,7 +36,7 @@ The version at the time of this writing was `4.8.1`, but you can just check [Pac
 > composer update phpunit/phpunit
 ~~~
 
-## Create `phpunit.xml`
+## Create phpunit.xml
 
 The next step is to create the `phpunit.xml` file in the root of our package. We can just use the sample below to start but of course you can put in your own configuration as well.
 
