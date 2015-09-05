@@ -63,7 +63,7 @@ It really depends what kind of package we are developing, but for the sake of si
 
 Next we will need to update each version of Laravel we want to test our package in. This will usually only include updating the `config/app.php` file with appropriate facades and service providers. We will also need to update the `composer.json` file to tell it where to find our package.
 
-~~~php
+~~~
 // config/app.php
 
 'providers' => [
@@ -232,7 +232,7 @@ public function boot()
 }
 ~~~
 
-Here we specify the location to load our views from. In this case we chose to store them in `src/views` form the root of our project.
+Here we specify the location to load our views from. In this case we chose to store them in `src/views` from the root of our project.
 
 You will also see the second argument in the `loadViewsFrom` call. This is to create an alias when calling our views. Make sure to pick something unique here and preferably the same as your packages name to avoid collisions.
 
@@ -241,7 +241,7 @@ We can then create a sample view:
 ~~~
 // src/views/index.php
 
-{{ Demo::hello() . ' from index view.' }}
+{{ "{{ Demo::hello() . ' from index view.' }} }}
 ~~~
 
 And create a route to call our view:
