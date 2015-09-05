@@ -241,7 +241,7 @@ We can then create a sample view:
 ~~~
 // src/views/index.php
 
-{{ "{{ Demo::hello() . ' from index view.' }} }}
+{{ "{{ Demo::hello() . ' from index view.' " }}}}
 ~~~
 
 And create a route to call our view:
