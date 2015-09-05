@@ -63,7 +63,7 @@ It really depends what kind of package we are developing, but for the sake of si
 
 Next we will need to update each version of Laravel we want to test our package in. This will usually only include updating the `config/app.php` file with appropriate facades and service providers. We will also need to update the `composer.json` file to tell it where to find our package.
 
-```php
+~~~php
 // config/app.php
 
 'providers' => [
@@ -89,7 +89,7 @@ Next we will need to update each version of Laravel we want to test our package 
 },
 
 ...
-```
+~~~
 
 ## Package Class
 
