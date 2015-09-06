@@ -200,9 +200,9 @@ If we have a lot of routes, we may want to organize our routes into controllers.
 
 namespace Websanova\Demo\Http;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller as BaseController;
 
-class DemoController extends Controller
+class DemoController extends BaseController
 {
     public function index()
     {
@@ -250,6 +250,20 @@ And create a route to call our view:
 Route::get('demo/view', function () {
 	return view('websanova-demo::index');
 });
+~~~
+
+## Namespacing
+
+One more thing to keep in mind during your package development is the `namespace`. We want to make sure we don't couple our package to the Laravel app. So for instance if you need a base controller or model create your own and import the packages directly.
+
+~~~
+use Illuminate\Routing\Controller as BaseController;
+~~~
+
+Rather than,
+
+~~~
+use App\Http\Controllers\Controller;
 ~~~
 
 ## Conclusion
