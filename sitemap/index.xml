@@ -2,58 +2,69 @@
 layout: nil
 permalink: /sitemap.xml
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-	
-	<title type="text" xml:lang="en">Websanova Blog</title>
-	<link type="application/atom+xml" href="http://{{ site.url }}/sitemap.xml" rel="self"/>
- 	<link type="text" href="http://{{ site.url }}" rel="alternate"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://{{ site.url }}</id>
-	<author>
-		<name>Websanova</name>
-	</author>
-	
-	<entry>
-		<title>Blog</title>
-		<link href="http://{{ site.url }}/blog"/>
-		<updated>{{ site.posts[0].date | date_to_xmlschema }}</updated>
-		<id>http://{{ site.url }}/blog</id>
-		<content type="html">Websanova is a blog dedicated to web development.</content>
-	</entry>
-	<entry>
-		<title>Blog</title>
-		<link href="http://{{ site.url }}/blog"/>
-		<updated>{{ site.posts[0].date | date_to_xmlschema }}</updated>
-		<id>http://{{ site.url }}/blog</id>
-		<content type="html">Websanova is a blog dedicated to web development.</content>
-	</entry>
-	<entry>
-		<title>Plugins</title>
-		<link href="http://{{ site.url }}/plugins"/>
-		<id>http://{{ site.url }}/plugins</id>
-		<content type="html">Websanova plugins and packages for jQuery and Laravel.</content>
-	</entry>
-	<entry>
-		<title>Projects</title>
-		<link href="http://{{ site.url }}/projects"/>
-		<id>http://{{ site.url }}/projects</id>
-		<content type="html">Various work projects, pet projects, e-book and games.</content>
-	</entry>
-	<entry>
-		<title>Serach</title>
-		<link href="http://{{ site.url }}/search"/>
-		<id>http://{{ site.url }}/search</id>
-		<content type="html">Websanova search.</content>
-	</entry>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <url> 
+	<loc>http://{{ site.url }}/blog</loc>
+	<image:image>
+       <image:loc>http://{{ site.url }}/img/logo-200x200.png</image:loc> 
+    </image:image>
+	<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>1.0</priority>
+  </url>
+  <url> 
+	<loc>http://{{ site.url }}/plugins</loc>
+	<image:image>
+       <image:loc>http://{{ site.url }}/img/logo-200x200.png</image:loc> 
+    </image:image>
+	<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+  </url>
+  <url> 
+	<loc>http://{{ site.url }}/projects</loc>
+	<image:image>
+       <image:loc>http://{{ site.url }}/img/logo-200x200.png</image:loc> 
+    </image:image>
+	<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+  </url>
+  <url> 
+	<loc>http://{{ site.url }}/services</loc>
+	<image:image>
+       <image:loc>http://{{ site.url }}/img/logo-200x200.png</image:loc> 
+    </image:image>
+	<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+  </url>
+  <url> 
+	<loc>http://{{ site.url }}/search</loc>
+	<image:image>
+       <image:loc>http://{{ site.url }}/img/logo-200x200.png</image:loc> 
+    </image:image>
+	<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+  </url>
 
-	{% for post in site.posts %}
-	<entry>
-		<title>{{ post.title | xml_escape }}</title>
-		<link href="http://{{ site.url }}{{ post.url }}"/>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://{{ site.url }}{{ post.id }}</id>
-		<content type="html">{{ post.description | xml_escape }}</content>
-	</entry>
-	{% endfor %}
-</feed>
+  {% for post in site.posts %}
+    <url> 
+	  <loc>http://{{ site.url }}{{ post.url }}</loc>
+	  <image:image>
+    	{% if page.img %}
+	      <image:loc>http://{{ site.url }}{{ page.img }}</image:loc>
+	    {% else %}
+	      <image:loc>http://{{ site.url }}/img/logo-200x200.png</image:loc>
+	    {% endif %}
+      </image:image>
+	  <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+	  <priority>0.9</priority>
+    </url>
+  {% endfor %}
+</urlset>
