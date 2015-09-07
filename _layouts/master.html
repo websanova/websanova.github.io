@@ -20,7 +20,12 @@
 	<meta property="og:description" content="{{ page.description }}" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:site_name" content="Websanova" />
-	<meta property="og:image" content="http://{{ site.url }}/img/logo-200x200.png" />
+
+	{% if page.img %}
+		<meta property="og:image" content="http://{{ site.url }}{{ page.img }}" />
+	{% else %}
+		<meta property="og:image" content="http://{{ site.url }}/img/logo-200x200.png" />
+	{% endif %}
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
