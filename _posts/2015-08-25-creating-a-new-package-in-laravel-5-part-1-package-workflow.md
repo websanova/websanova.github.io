@@ -90,7 +90,7 @@ php artisan serve --port 8001
 
 ## composer.json
 
-For now we will just go with the minimum configuration required for the `composers.json` file. We will add to it as we go along with our packages development later on.
+For now we will just go with the minimum configuration required for the `composer.json` file. We will add to it as we go along with our packages development later on.
 
 Note that this is the packages `composer.json` file, which has nothing to do with the Laravel/Lumen `composer.json` file. This file should be located at the root of your packages directory.
 
