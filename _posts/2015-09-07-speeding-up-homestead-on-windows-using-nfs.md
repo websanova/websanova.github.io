@@ -4,7 +4,7 @@ title: Speeding up Homestead on Windows Using NFS
 keywords: websanova, laravel, homestead, nfs, speed
 description: Homestead is a great way to get a packaged environment for your Laravel packages. However for Windows we will need to setup NFS to get it our page load times to an appropriate level.
 date: Sep 07 2015
-img: /img/logo-200x200.png
+img: /wp-content/uploads/2015/speeding-up-homestead-on-windows-using-nfs.png
 permalink: /blog/laravel/speeding-up-homestead-on-windows-using-nfs.html
 ---
 
