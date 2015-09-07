@@ -12,7 +12,7 @@ I recently took the plunge into getting a Homestead vagrant box setup locally fo
 
 But wait, why is everything so slow? I started searching Google and it seems it's a common problem for Windows. It seems the trick is to enable `nfs` support for windows and boot your folders using the `nfs` file system.
 
-It took a bit of searching and tinkering so thought I would share is it only takes a few simple steps
+It took a bit of searching and tinkering so thought I would share the few simple steps it takes to enable `nfs` for vagrant on Windows.
 
 ## Install NFS Plugin
 
