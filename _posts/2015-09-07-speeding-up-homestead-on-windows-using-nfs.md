@@ -8,6 +8,8 @@ img: /wp-content/uploads/2015/speeding-up-homestead-on-windows-using-nfs.png
 permalink: /blog/laravel/speeding-up-homestead-on-windows-using-nfs.html
 ---
 
+**EDIT:** I have another article on using [Homestead with sFTP and Sublime](/blog/laravel/laravel-homestead-with-sftp-and-sublime-text) which may be a better option for some.
+
 I recently took the plunge into getting a Homestead vagrant box setup locally for development. I followed the instructions on the Laravel docs page and all went well. It took me only about ten minutes to get everything working within Homestead, awesome!
 
 But wait, why is everything so slow? I started searching Google and it seems it's a common problem for Windows. It seems the trick is to enable `nfs` support for windows and boot your folders using the `nfs` file system.
