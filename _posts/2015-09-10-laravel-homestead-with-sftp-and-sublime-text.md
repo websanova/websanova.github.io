@@ -3,6 +3,7 @@ layout: master
 title: Homestead with sFTP and Sublime Text
 keywords: websanova, laravel, homestead, vagrant, nfs, speed, ftp, sftp, sublime, text
 description: Using Homestead for Laravel development is great however there can be some issues with the NFS. A good option is to use sftp to avoid these issues.
+date: Sep 10 2015
 img: /wp-content/uploads/2015/laravel-homestead-with-sftp-and-sublime-text.png
 permalink: /blog/laravel/laravel-homestead-with-sftp-and-sublime-text.html
 ---
