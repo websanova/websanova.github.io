@@ -48,7 +48,7 @@ We will add a few additional fields to the `composer.json` file at the root of o
         "psr-4": {
             "Websanova\\Demo\\": "src/"
         }
-    }
+    },
     "require": {
         "illuminate/support": "~5"
     }
