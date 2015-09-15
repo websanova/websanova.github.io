@@ -5,7 +5,7 @@ keywords: php, laravel, package, creating, development, controller, view, routes
 description: In Part 2 we cover some basic package development. We cover, controllers, views and routes and get some working code up and running.
 date: Aug 26 2015
 img: /img/logo-200x200.png
-permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views.html
+permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views
 ---
 
 * [Part 1 - Package Workflow](/blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow)
