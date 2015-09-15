@@ -99,7 +99,7 @@
 			    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			    var disqus_shortname = 'websanova'; // required: replace example with your forum shortname
 			    {% assign url = page.permalink | split: '.' %}
-			    var disqus_identifier = 'http://{{ site.url }}{% url[0] %}';
+			    var disqus_identifier = 'http://{{ site.url }}{{ url[0] }}';
 
 			    /* * * DON'T EDIT BELOW THIS LINE * * */
 			    (function() {
