@@ -5,6 +5,7 @@ keywords: install, configure, svn, centos
 description: Article covers installing and configuring SVN (subversion) on CentOS.
 date: Jun 20 2011
 permalink: /blog/svn/install-and-configure-svn-on-centos.html
+redirect_from: /blog/centos/install-and-configure-svn-on-centos.html
 ---
 
 This tutorial will cover the step by step instructions necessary to install SVN on CentOS and configure it to work with Apache.

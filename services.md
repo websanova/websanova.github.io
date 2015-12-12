@@ -3,8 +3,11 @@ layout: master
 title: Websanova Services
 keywords: websanova, services
 description: List of Websanova services.
-permalink: /services.html
 page: true
+permalink: /services.html
+redirect_from:
+  - /contact.html
+  - /blog/author/admin.html
 ---
 
 ## Services

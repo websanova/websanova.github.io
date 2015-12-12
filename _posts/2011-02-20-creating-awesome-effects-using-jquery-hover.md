@@ -5,6 +5,7 @@ keywords: effect, jquery, hover
 description: An article covering how to use the jQuery hover function to create awesome effects.
 date: Feb 20 2011
 permalink: /blog/jquery/creating-awesome-effects-using-jquery-hover.html
+redirect_from: /tutorials/jquery/creating-awesome-effects-using-jquery-hover.html
 ---
 
 For a recent plugin color picker plugin that I wrote I was setting up some slide and fade effects for a palette that would open and close.  I initially used the simple mouseover/mouseout combo but quickly realized the ineffectiveness of this method.  I was saved by using the jQuery hover method, a great little method that solved all my problems and then some with just a few lines of code.

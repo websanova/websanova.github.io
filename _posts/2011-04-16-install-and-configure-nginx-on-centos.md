@@ -5,6 +5,7 @@ keywords: install, configure, nginx, centos
 description: Article covers installing and configuring nginx web server on CentOS Linux.
 date: Aug 16 2011
 permalink: /blog/nginx/install-and-configure-nginx-on-centos.html
+redirect_from: /blog/centos/install-and-configure-nginx-on-centos.html
 ---
 
 Instructions on how to install and configure Nginx on CentOS.

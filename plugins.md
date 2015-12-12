@@ -7,6 +7,22 @@ page: true
 permalink: /plugins.html
 redirect_from:
   - /plugins/websanova/paint.html
+  - /plugins/paint/html5.html
+  - /plugins/websanova/color-picker.html
+  - /plugins/websanova/tooltip.html
+  - /plugins/scratchpad.html
+  - /plugins/websanova/mousestop.html
+  - /plugins/websanova/scratchpad.html
+  - /plugins/websanova/selectors.html
+  - /plugins/scratchpad/html5.html
+  - /plugins/tooltips/jquery.html
+  - /plugins/websanova/humanmsg.html
+  - /plugins/websanova/utils.html
+  - /plugins/color-pickers/jquery.html
+  - /plugins/paint.html
+  - /plugins/select-boxes/jquery.html
+  - /plugins/pagination.html
+  - /blog/jquery/10-awesome-jquery-tooltip-plugins.html
 ---
 
 ## Laravel Packages
