@@ -5,8 +5,8 @@ keywords: websanova, plugins
 description: List of Websanova plugins.
 page: true
 permalink: /plugins.html
-redirect_from: 
-	- /plugins/websanova/paint.html
+redirect_from:
+  - /plugins/websanova/paint.html
 ---
 
 ## Laravel Packages
