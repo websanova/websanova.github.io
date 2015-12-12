@@ -3,9 +3,10 @@ layout: master
 title: Websanova Plugins
 keywords: websanova, plugins
 description: List of Websanova plugins.
-permalink: /plugins.html
-redirect_from: /plugins/websanova/paint
 page: true
+permalink: /plugins.html
+redirect_from: 
+	- /plugins/websanova/paint.html
 ---
 
 ## Laravel Packages
