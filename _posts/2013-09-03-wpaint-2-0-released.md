@@ -6,6 +6,8 @@ description: It’s been long overdue but wPaint 2.0 is finally out. The 1.0 str
 date: Sep 03 2013
 img: /wp-content/uploads/2013/09/websanova-2-0-released.png
 permalink: /blog/jquery/wpaint-2-0-released.html
+redirect_from:
+  - /blog/uncategorized/wpaint-2-0-released.html
 ---
 
 It’s been long overdue but wPaint 2.0 is finally out. The 1.0 stream was doing well but I was getting continually emailed with feature requests, and bugs particularly on mobile. With this release wPaint has been completely rewritten from the ground up. New things like multiple themeing and the ability to add plugins/modules to wPaint have been added to make it much easier to build upon and extend. This makes it both easier for me to maintain and continue to grow with new feature requests as well as making it easier for other developers to add their own plugins to wPaint.

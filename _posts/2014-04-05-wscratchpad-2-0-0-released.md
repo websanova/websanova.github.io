@@ -6,6 +6,7 @@ description: Websanova wScratchPad 2.0.0 finally released. After lots of feedbac
 date: Apr 05 2014
 img: /wp-content/uploads/2014/04/wscratchpad-version-2-released.png
 permalink: /blog/jquery/wscratchpad-2-0-0-released.html
+redirect_from: /blog/uncategorized/wscratchpad-2-0-0-released.html
 ---
 
 So after the whole [MLB.com is using my Google Analytics code](/blog/articles/websanova-is-tracking-mlb-com) debacle I thought it was about time to finally give this plugin a major overhaul. The new version takes care of many nagging issues that kept coming up on GitHub. It also removes my Google Analytics and social tracking codes for anyone using the code locally and should avoid any more copy and paste “accidents” like the MLB.com one. There were a lot of issues on the GitHub page so please update to this latest version and drop me an issue on GitHub if anything else comes up.

@@ -6,6 +6,9 @@ description: It’s not often we need our own jQuery events, but when we do it�
 date: July 15 2013
 img: /wp-content/uploads/2013/07/custom-events-using-jquery-special-events-api.png
 permalink: /blog/jquery/custom-events-using-the-jquery-special-events-api.html
+redirect_from:
+  - /custom-events-using-the-jquery-special-events-api.html
+  - /blog/uncategorized/custom-events-using-the-jquery-special-events-api.html
 ---
 
 It’s not often we need our own jQuery events, but when we do it’s nice to know we can create an elegant solution that behaves like any other event would. We want to be able to add an event right into the fabric of jQuery that we can bind using the `bind` and `on` methods.

@@ -5,7 +5,9 @@ keywords: jsfiddle, javascript
 description: This article describes how to write your own simple version of a jsfiddle style application.
 date: Apr 16 2012
 permalink: /blog/jquery/how-to-write-your-own-jsfiddle-in-15-minutes-or-less.html
-redirect_from: /tutorials/jquery/how-to-write-your-own-jsfiddle-in-15-minutes-or-less.html
+redirect_from:
+  - /tutorials/jquery/how-to-write-your-own-jsfiddle-in-15-minutes-or-less.html
+  - /how-to-write-your-own-jsfiddle-in-15-minutes-or-less.html
 ---
 
 This weekend I decided to build my own version of [JSFiddle](http://www.jsfiddle.net), a small little web service that allows you to test and share HTML, CSS and JavaScript code.  It's actually quite simple to write and only requires a few lines of code.  The rest is pretty much eye candy and convenience for the user which JSFiddle has done a great job of.  Since I like to write plugins I have turned my little experiment into a jQuery plugin called JSNova.  It's only functionality is to output results and reset the boxes but it's quite fluid and you can pop it into your own projects.

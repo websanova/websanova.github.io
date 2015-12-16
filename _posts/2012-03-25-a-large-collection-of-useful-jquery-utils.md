@@ -5,7 +5,10 @@ keywords: large, collection, jquery, utils, utilities
 description: A collection of useful jQuery utitilites to easily add to your projects on demand when needed.
 date: Mar 25 2012
 permalink: /blog/jquery/a-large-collection-of-useful-jquery-utils.html
-redirect_from: /tutorials/jquery/a-large-collection-of-useful-jquery-utils.html
+redirect_from:
+  - /tutorials/jquery/a-large-collection-of-useful-jquery-utils.html
+  - /a-large-collection-of-useful-jquery-utils.html
+  - /blog/uncategorized/a-large-collection-of-useful-jquery-utils.html
 ---
 
 jQuery is a fantastic library but it needs to stay lean and small by providing only the most commonly need features.  However there are many other little utilities that I have used frequently enough and found myself always rewriting them, so I started collecting them into a little library.  Many of these are just little shortcuts to code I find myself constantly typing out, but don't think of it as a whole library you need to load into your code.  Just take the pieces you need and leave the pieces you don't need.

@@ -5,7 +5,9 @@ keywords: jquery, max, character, counter, plugin
 description: Sample code and demo for the Websanova jquery Max Character Counter Plugin.
 date: Apr 18 2012
 permalink: /blog/jquery/jquery-max-character-counter-plugin.html
-redirect_from: /tutorials/jquery/jquery-max-character-counter-plugin.html
+redirect_from:
+  - /tutorials/jquery/jquery-max-character-counter-plugin.html
+  - /jquery-max-character-counter-plugin.html
 ---
 
 This little plugin was originally designed to limit the amount of characters that can be typed into the `textarea` element which does not support the `maxlength` attribute like an `input` element does.  With HTML5 this is no longer required as they have finally added this attribute but until the rest of the world catches up I find myself still using this quite frequently as a backup.  Actually in many cases I prefer to use it over setting the `maxlength` attribute as it's easier to change if I have a large set of inputs.

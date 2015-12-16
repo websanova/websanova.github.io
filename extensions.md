@@ -4,6 +4,8 @@ title: Websanova Extensions
 keywords: websanova, extensions
 description: List of Websanova extensions.
 permalink: /extensions.html
+redirect_from: 	
+  - /extensions/websanova/wextensions/html5/roundedRect.html
 page: true
 ---
 

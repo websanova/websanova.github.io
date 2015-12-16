@@ -5,6 +5,8 @@ keywords: wordpress, mysql, setup, command
 description: Article covering the necessary MySQL commands to execute in order to setup wordpress.
 date: Oct 3 2011
 permalink: /blog/mysql/wordpress-mysql-setup-commands.html
+redirect_from:
+  - /wordpress-mysql-setup-commands.html
 ---
 
 I do this so often that I wanted to create a little reference tutorial of MySQL command needed to get your WordPress install up and running.

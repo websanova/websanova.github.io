@@ -5,7 +5,10 @@ keywords: javascript, game, timer
 description: Article about how to implement an accurate FPS game timer in JavaScript.
 date: May 17 2012
 permalink: /blog/javascript/how-to-write-an-accurate-game-timer-in-javascript.html
-redirect_from: /tutorials/javascript/how-to-write-an-accurate-game-timer-in-javascript.html
+redirect_from:
+  - /tutorials/javascript/how-to-write-an-accurate-game-timer-in-javascript.html
+  - /how-to-write-an-accurate-game-timer-in-javascript.html
+  - /blog/javascript/how-to-write-an-accurate-game-timer-in-javascript/feed.html
 ---
 
 This week I decided to revisit a game I had made a long time ago using HTML5 canvas called [Blocknik](http://blocknik.websanova.com), a Tetris style game I made to learn some HTML5 and how to use canvas.  A buddy of mine wanted to get it into the app store for the iPad so I did a little overhaul of it, specifically with the timer.

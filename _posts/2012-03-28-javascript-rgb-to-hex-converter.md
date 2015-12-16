@@ -5,7 +5,9 @@ keywords: javascript, rgb, hex, converter
 description: An article with sample code for a smiple JavaScript RGB to HEX converter.
 date: Mar 28 2012
 permalink: /blog/javascript/javascript-rgb-to-hex-converter.html
-redirect_from: /tutorials/javascript/javascript-rgb-to-hex-converter.html
+redirect_from:
+  - /tutorials/javascript/javascript-rgb-to-hex-converter.html
+  - /javascript-rgb-to-hex-converter.html
 ---
 
 This is a little script for converting between RGB and Hex color codes in JavaScript.  I have broken it down into three pieces for converting from RGB to Hex, Hex to RGB and finally a combination of the two that will auto detect the correct color code coming in and convert it to the appropriate one.  The scripts also make sure the color codes are valid and if an invalid color code is passed into the functions the script will return the value false.

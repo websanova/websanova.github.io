@@ -5,6 +5,8 @@ keywords: setting, php, nginx
 description: Article covers setting up PHP with Nginx and FastCGI on CentOS.
 date: Aug 25 2011
 permalink: /blog/php/setting-up-php-with-nginx.html
+redirect_from:
+  - /setting-up-php-with-nginx.html
 ---
 
 This is a small tutorial on how to setup PHP with Nginx.

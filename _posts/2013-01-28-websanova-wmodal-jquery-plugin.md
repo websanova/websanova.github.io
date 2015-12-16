@@ -5,6 +5,8 @@ keywords: jquery, plugins, womdal
 description: Most of the jQuery modal plugins out there had either not enough options, or too many and weren’t too flexible either way.
 date: Jan 28 2013
 permalink: /blog/jquery/websanova-wmodal-jquery-plugin.html
+redirect_from:
+  - /websanova-wmodal-jquery-plugin.html
 ---
 
 Most of the jQuery modal plugins out there had either not enough options, or too many and weren’t too flexible either way. I wanted to create a modal system that was very flexible that came with some nice options out of the box and made it very easy to add customized prompts and effects of your own. I ended up creating wModal using jQuery and my own jQuery Plugin Development Boilerplate which is available on GitHub for all your modal needs.

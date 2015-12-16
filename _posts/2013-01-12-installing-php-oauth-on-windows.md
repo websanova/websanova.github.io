@@ -5,6 +5,9 @@ keywords: install, php, oauth, windows
 description: The article details installing PHP oAuth on Windows.
 date: Jan 12 2013
 permalink: /blog/php/installing-php-oauth-on-windows.html
+redirect_from:
+  - /installing-php-oauth-on-windows.html
+  - /tutorials/php/installing-php-oauth-on-windows.html
 ---
 
 I found a lot of confusion when trying to setup the PHP `oAuth` library on Windows.  It seemed there was a lot of outdated information out there so I decided to write this little updated post on the subject.

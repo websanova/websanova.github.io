@@ -5,6 +5,8 @@ keywords: svn, subversion, command, reference
 description: Article covers list of common svn (subversion) commands along with how and when to apply them.
 date: Aug 2 2011
 permalink: /blog/svn/svn-command-reference.html
+redirect_from:
+  - /blog/svn/svn-command-reference/feed.html
 ---
 
 Rather then just give a list of command and what they do, in the section I wanted to cover some real world scenarios that you will come across and how to handle them.  You will see the specific commands to use, and learn what they do as you apply them.

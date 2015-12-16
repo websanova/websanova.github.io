@@ -5,7 +5,9 @@ keywords: jquery, selector, extension
 description: List of 12 jQuery selectors for extending jQuery.
 date: Mar 12 2012
 permalink: /blog/jquery/12-awesome-jquery-selector-extensions.html
-redirect_from: /tutorials/jquery/12-awesome-jquery-selector-extensions.html
+redirect_from:
+  - /tutorials/jquery/12-awesome-jquery-selector-extensions.html
+  - /12-awesome-jquery-selector-extensions.html
 ---
 
 I recently began writing my own jQuery selectors more and more as I realized it's a very nice and clean way to accomplish some specific tasks that I may normally have used an iterator for.  It's one of those things that if you're not looking for you'll never see, so I decided to write a little tutorial on it as setting up your own selectors is extremely easy with jQuery.

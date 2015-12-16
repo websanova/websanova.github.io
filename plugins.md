@@ -22,7 +22,21 @@ redirect_from:
   - /plugins/paint.html
   - /plugins/select-boxes/jquery.html
   - /plugins/pagination.html
+  - /plugins/timer.html
+  - /plugins/color-picker.html
+  - /plugins/mousestop.html
+  - /plugins/char.html
+  - /plugins/tooltip.html
+  - /plugins/feedback.html
+  - /plugins/lightboxes/jquery.html
+  - /plugins/slideshows/fullscreen.html
+  - /plugins/modal.html
+  - /plugins/websanova/boilerplate.html
   - /blog/jquery/10-awesome-jquery-tooltip-plugins.html
+  - /tutorials/jquery/10-awesome-jquery-tooltip-plugins.html
+  - /blog/jquery/10-awesome-jquery-rating-plugins.html
+  - /tutorials/jquery/10-awesome-jquery-rating-plugins.html
+  - /blog/uncategorized/10-awesome-jquery-rating-plugins.html
 ---
 
 ## Laravel Packages

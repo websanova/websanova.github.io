@@ -5,6 +5,8 @@ keywords: wordpress, nginx
 description: Article describing getting Wordpress to work with Nginx web server.
 date: Sep 16 2011
 permalink: /blog/nginx/getting-wordpress-to-work-with-nginx.html
+redirect_from:
+  - /getting-wordpress-to-work-with-nginx.html
 ---
 
 Since Nginx does not use `.htaccess` files we need to convert all our `.htaccess` rules to Nginx.  If you seen my previous tutorial on [Nginx Catch All Rewrite](/nginx-catch-all-rewrite) then you will see the similarities here.  

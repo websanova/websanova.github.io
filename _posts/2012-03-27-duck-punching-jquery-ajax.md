@@ -5,7 +5,10 @@ keywords: duck, punching, jquery, ajax
 description: An article describing the technique of duck punching with an example using jQuery $.ajax function.
 date: Mar 27 2012
 permalink: /blog/jquery/duck-punching-jquery-ajax.html
-redirect_from: /tutorials/jquery/duck-punching-jquery-ajax.html
+redirect_from:
+  - /tutorials/jquery/duck-punching-jquery-ajax.html
+  - /tutorials/javascript/duck-punching-jquery-ajax.html
+  - /duck-punching-jquery-ajax.html
 ---
 
 I recently came across a very particular problem using jQuery's `ajax()` function.  I wanted to have a global handler that would intercept all "success" requests, check them for a return code and only continue processing if the code returned had a value of "1".  It would then display a graceful message regardless the value of the return code.  I also did not want to add any extra code into each success function as I have about 100 different ajax requests.  The existing jQuery ajax utilities were unable to accomplish this so I needed a different solution.

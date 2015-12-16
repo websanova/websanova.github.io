@@ -6,6 +6,8 @@ description: So you've decided to dive into Node.js but you're not quite sure ho
 date: Mar 19 2014
 img: /wp-content/uploads/2014/03/creating-a-new-nodejs-project.png
 permalink: /blog/node-js/creating-a-new-node-js-project.html
+redirect_from:
+  - /blog/uncategorized/creating-a-new-node-js-project.html
 ---
 
 As we saw in my previous tutorials on [Installing Node.js with Nginx Proxy](/blog/nginx/installing-node-js-with-nginx-proxy) and [Serving Dynamic Pages with Node.js](/blog/node-js/serving-pages-dynamically-with-node-js) it’s quite easy to get Node up and running in no time. However if we really want to take full advantage of Node.js we’ll want to familiarize ourselves with it’s package manager `npm` for short. With the package manager we can install any libraries available including the popular `express` framework by simply creating a dependency for it and typing `npm update`.

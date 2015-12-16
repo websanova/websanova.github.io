@@ -5,6 +5,9 @@ keywords: guidelines, jquery, plugins, writing
 description: Article discussing 10 simple guidelines for writing elegant jQuery plugins.
 date: Feb 11 2012
 permalink: /blog/jquery/10-simple-guidelines-for-writing-jquery-plugins.html
+redirect_from:
+  - /tutorials/jquery/10-simple-guidelines-for-writing-jquery-plugins.html
+  - /10-simple-guidelines-for-writing-jquery-plugins.html
 ---
 
 I've written many JQuery plugins in my time and through this experience I have learned a lot.  However I've learned the most about writing plugins trying to implement other developers plugins.  I have spent countless hours trying to hack plugins out there that to me were 90 to 95 percent complete.  There are some very simple but crucially important things to keep in mind when developing a plugin to ensure that you don't drive others crazy trying to use it.

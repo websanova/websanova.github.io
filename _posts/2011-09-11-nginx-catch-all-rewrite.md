@@ -5,6 +5,8 @@ keywords: nginx, catchall, rewrite
 description: Article covering a how to setup a catch all rewrite in Nginx.
 date: Sep 11 2011
 permalink: /blog/nginx/nginx-catch-all-rewrite.html
+redirect_from:
+  - /nginx-catch-all-rewrite.html
 ---
 
 As I'm playing more with Nginx, I'm finding I have to convert a lot of my common Apache configuration over to Nginx.  Here is one that is frequently used, it's a catch all rewrite that takes any request that does not exist as a file or directory and rewrites it to the index.

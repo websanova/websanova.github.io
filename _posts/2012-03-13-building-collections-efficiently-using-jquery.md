@@ -5,7 +5,9 @@ keywords: collection, efficient, jquery
 description: The article covers building collections efficiently using jQuery, particularly the clone function.
 date: Mar 13 2012
 permalink: /blog/jquery/building-collections-efficiently-using-jquery.html
-redirect_from: /tutorials/jquery/building-collections-efficiently-using-jquery.html
+redirect_from:
+  - /tutorials/jquery/building-collections-efficiently-using-jquery.html
+  - /building-collections-efficiently-using-jquery.html
 ---
 
 One issue that is commonly faced in an AJAX based website is the building of a collection or list of items.  The collection is dynamic meaning items can be added or removed and this is done so via AJAX calls.  The goal is to keep the JavaScript and HTML components separate while keeping the code understandable and maintainable.  There are a few frameworks out there to do this for you like the more popular `backbone.js` however I wanted to present a simpler solution without the use of any frameworks.

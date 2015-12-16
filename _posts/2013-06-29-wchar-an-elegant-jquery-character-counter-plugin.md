@@ -6,6 +6,8 @@ description: Character Counters have always bothered me during development as I 
 date: June 29 2013
 img: /img/logo-200x200.png
 permalink: /blog/jquery/wchar-an-elegant-jquery-character-counter-plugin.html
+redirect_from:
+  - /wchar-an-elegant-jquery-character-counter-plugin.html
 ---
 
 Character Counters have always bothered me during development as I was never able to find a good place for them. Sometimes I had forms with multiple inputs and having a little character counter bubble above each one just made the form look bloated and messy. Trying to make it look pretty was always too much of an effort and required a bunch of extra ugly CSS as well that I never really liked. Most of the time the CSS wasn’t even reusable as each form required a little bit of a modification to make the character counter look well with the other field on the form.

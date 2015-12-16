@@ -5,6 +5,8 @@ keywords: postgres, csv, dump
 description: Postgres dump database to CSV format
 date: Oct 16 2010
 permalink: /blog/postgres/postgres-dump-to-csv.html
+redirect_from:
+  - /postgres-dump-to-csv.html
 ---
 
 I was recently having an issue doing a dump to a CSV file from psql command line.  Some bug with a permissions error.

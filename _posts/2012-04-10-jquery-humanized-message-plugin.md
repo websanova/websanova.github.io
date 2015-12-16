@@ -5,7 +5,9 @@ keywords: jquery, humanized, message, msg, plugin
 description: Sample code an demo for the Websanova jQuery Humanized Message plugin.
 date: Apr 10 2012
 permalink: /blog/jquery/jquery-humanized-message-plugin.html
-redirect_from: /tutorials/jquery/jquery-humanized-message-plugin.html
+redirect_from:
+  - /tutorials/jquery/jquery-humanized-message-plugin.html
+  - /blog/uncategorized/jquery-humanized-message-plugin.html
 ---
 
 This post is to introduce the newest Websanova jQuery Humanized Message Plugin.  It's a very sleek way to display a status message/feedback to the user rather than updating some little div on the page.  This message pops up nice and clearly and can't be missed.  Something similar is used on Twitter which was the initial inspiration to build it out as we have adopted it's use in many of our own apps.

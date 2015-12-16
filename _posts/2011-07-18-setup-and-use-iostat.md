@@ -5,6 +5,9 @@ keywords: setup, use, iostat, centos
 description: Article covers setting up an using iostat to gather performance statistics on CentOS Linux.
 date: Jul 18 2011
 permalink: /blog/centos/setup-and-use-iostat.html
+redirect_from:
+  - /setup-and-use-iostat.html
+  - /blog/uncategorized/setup-and-use-iostat.html
 ---
 
 The `iostat` utility is used to gather performance statistics for partitions or devices.  You may need to install the `sysstat` package first before you use the `iostat` command.

@@ -5,6 +5,8 @@ keywords: javascript, grunt, grunt.js, websanova
 description: I have never really gotten into using Grunt, but once I got it going I found out how great it is at automating so many tasks like linting, testing and minifying my files.
 date: June 24 2013
 permalink: /blog/javascript/how-to-setup-grunt.html
+redirect_from:
+  - /how-to-setup-grunt-js.html
 ---
 
 I have never really gotten into using Grunt, but once I got it going I found out how great it is at automating so many tasks like linting, testing and minifying my files. I actually came across it because I was trying to update one of my projects that had Grunt setup by someone else and so I tried to get it working locally. This led me to a lot of head scratching and confusion as apparently since version 0.4 of Grunt a few things had changed, however once I got everything working it was actually quite simple.

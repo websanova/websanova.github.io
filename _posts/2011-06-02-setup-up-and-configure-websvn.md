@@ -5,7 +5,10 @@ keywords: setup, configure, websvn, centos, linux
 description: Article covers setting up websvn on CentOS Linux for use with svn (Subversion).
 date: Jun 2 2011
 permalink: /blog/svn/setup-up-and-configure-websvn.html
-redirect_from: /blog/centos/setup-up-and-configure-websvn.html
+redirect_from:
+  - /blog/centos/setup-up-and-configure-websvn.html
+  - /setup-up-and-configure-websvn.html
+  - /install-and-configure-svn-on-centos.html
 ---
 
 WebSVN is a popular web based repository browser that is a useful tool to use to view the contents of your repository.  It only takes a few minutes to setup so I wanted to quickly cover it here.

@@ -5,6 +5,8 @@ keywords: svn, subversion, conflicts
 description: Article covers reading and handling conflicts in svn (subversion).
 date: Aug 10 2011
 permalink: /blog/svn/svn-conflicts.html
+redirect_from:
+  - /svn-conflicts.html
 ---
 
 I wanted to dedicate a small tutorial to just handling conflicts and merging on SVN as it seems to be a common sticking point for people new to SVN.  A conflict occurs when the same file has been edited by more then one person.  In most cases if you didn't edit the exact same lines your updates and commits will go through smoothly and merges on the files will happen automatically.  Occasionally there will be conflicts that need to be resolved manually.  
