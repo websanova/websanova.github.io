@@ -4,6 +4,7 @@ title: QuoteyQuote Laravel 5 App Released
 keywords: quoteyquote, quotes, laravel, laravel5, app, release, quote
 description: QuoteyQuote is a new app created by Websanova. It features some nice features like the ability to share quotes with your friends on the platform.
 date: Dec 17 2015
+img: /wp-content/uploads/2015/quoteyquote-laravel-5-app-released.png
 permalink: /blog/laravel/quoteyquote-laravel-5-app-released.html
 ---
 

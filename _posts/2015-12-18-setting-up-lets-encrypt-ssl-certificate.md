@@ -4,6 +4,7 @@ title: Setting Up Let's Encrypt SSL Certificate
 keywords: ssl, certificate, http, https, encrypt, letsencrypt, letsencrypt-auto, 80, 443
 description: A short guide on how to generate and install SSL Certificates using let's encrypt using letsencrypt command for both the GUI and the command line.
 date: Dec 18 2015
+img: /wp-content/uploads/2015/setting-up-lets-encrypt-ssl-certificates.png
 permalink: /blog/security/setting-up-lets-encrypt-ssl-certificates.html
 ---
 
