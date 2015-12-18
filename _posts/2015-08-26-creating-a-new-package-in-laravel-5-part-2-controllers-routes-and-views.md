@@ -4,7 +4,7 @@ title: "Creating a Laravel 5.x Package :: Part 2 - Controllers, Routes and Views
 keywords: php, laravel, package, creating, development, controller, view, routes, service provider, service, provider, facade, websanova
 description: In Part 2 we cover some basic package development. We cover, controllers, views and routes and get some working code up and running.
 date: Aug 26 2015
-img: /img/logo-200x200.png
+img: /wp-content/uploads/2015/creating-a-new-package-in-laravel-5.png
 permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-routes-and-views.html
 ---
 
@@ -13,6 +13,7 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-2-controllers-
 * [Part 3 - Config and Asset Publishing](/blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
 * [Part 4 - Database, Migrations and Seeding](/blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
 * [Part 5 - Unit Testing](/blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
+* [Part 6 - Misc](/blog/laravel/creating-a-new-package-in-laravel-5-part-6-misc)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
 ## Intro

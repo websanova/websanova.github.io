@@ -4,7 +4,7 @@ title: "Creating a Laravel 5.x Package :: Part 4 - Database Migrations and Seedi
 keywords: php, laravel, package, creating, database, migration, seeding, models, websanova
 description: In Part 4 we cover setting up our database. We then get into migrations and seeding data between our package and an app.
 date: Aug 28 2015
-img: /img/logo-200x200.png
+img: /wp-content/uploads/2015/creating-a-new-package-in-laravel-5.png
 permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding.html
 ---
 
@@ -13,6 +13,7 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-mig
 * [Part 3 - Config and Asset Publishing](/blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
 * [Part 4 - Database, Migrations and Seeding](/blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
 * [Part 5 - Unit Testing](/blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
+* [Part 6 - Misc](/blog/laravel/creating-a-new-package-in-laravel-5-part-6-misc)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
 ## Intro

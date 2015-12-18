@@ -4,7 +4,7 @@ title: "Creating a Laravel 5.x Package :: Part 1 - Package Workflow"
 keywords: php, laravel, package, creating, development, publish, publishing, version, websanova
 description: Creating a new package in Laravel can be a confusing process. In Part 1 we cover the process from setting up to publishing our packages.
 date: Aug 25 2015
-img: /img/logo-200x200.png
+img: /wp-content/uploads/2015/creating-a-new-package-in-laravel-5.png
 permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-workflow.html
 ---
 
@@ -13,6 +13,7 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-1-package-work
 * [Part 3 - Config and Asset Publishing](/blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
 * [Part 4 - Database, Migrations and Seeding](/blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
 * [Part 5 - Unit Testing](/blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
+* [Part 6 - Misc](/blog/laravel/creating-a-new-package-in-laravel-5-part-6-misc)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
 ## Intro

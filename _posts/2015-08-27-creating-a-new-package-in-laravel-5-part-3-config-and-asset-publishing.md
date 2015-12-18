@@ -13,6 +13,7 @@ permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-a
 * [Part 3 - Config and Asset Publishing](/blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing)
 * [Part 4 - Database, Migrations and Seeding](/blog/laravel/creating-a-new-package-in-laravel-5-part-4-database-migrations-and-seeding)
 * [Part 5 - Unit Testing](/blog/laravel/creating-a-new-package-in-laravel-5-part-5-unit-testing)
+* [Part 6 - Misc](/blog/laravel/creating-a-new-package-in-laravel-5-part-6-misc)
 * [Demo Code on GiHub](https://github.com/websanova/laravel-demo)
 
 ## Intro
