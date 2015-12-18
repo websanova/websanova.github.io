@@ -91,7 +91,7 @@ For instance when I ran mine, it didn't setup the redirect from `http` to `https
 
 ## Sites Enabled
 
-It will really depend on your setup and what system you're using with Apache. In my case on Ubuntu it has the `sites-enabled` and `sites-available` folders. It created a separate file called `websanova.com-....conf for the SSL configuration. I ended up deleting this and moving the entire config for both `http` and `https` into one config file under `websanova.com.conf`. 
+It will really depend on your setup and what system you're using with Apache. In my case on Ubuntu it has the `sites-enabled` and `sites-available` folders. It created a separate file called `websanova.com-....conf` for the SSL configuration. I ended up deleting this and moving the entire config for both `http` and `https` into one config file under `websanova.com.conf`. 
 
 ~~~
 <VirtualHost *:80>
