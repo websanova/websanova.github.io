@@ -3,7 +3,7 @@ layout: master
 title: "Creating a Laravel 5.x Package :: Part 6 - Misc"
 keywords: php, laravel, package, misc, sqlite
 description: In Part 6 we discuss some extra features of package development in Laravel. Some of these are more general concepts but will aid you when developing Laravel pacakges.
-date: Aug 29 2015
+date: Dec 29 2015
 img: /wp-content/uploads/2015/creating-a-new-package-in-laravel-5.png
 permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-6-misc.html
 ---

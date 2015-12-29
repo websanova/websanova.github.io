@@ -4,7 +4,7 @@ title: "Creating a Laravel 5.x Package :: Part 3 - Config and Asset Publishing"
 keywords: php, laravel, package, creating, assets, publishing, config, configuration, websanova
 description: In Part 3 we will build on what we learned in part 2. We will cover configuration files and publishing our package so that views and configs can be overwritten within an app.
 date: Aug 27 2015
-img: /img/logo-200x200.png
+img: /wp-content/uploads/2015/creating-a-new-package-in-laravel-5.png
 permalink: /blog/laravel/creating-a-new-package-in-laravel-5-part-3-config-and-asset-publishing.html
 ---
 
@@ -132,7 +132,7 @@ public function boot()
 Furthermore we can specify a provider to avoid publishing all packages and focus on just one particular package. Also very useful when using `--force` since we may not want to override other packages we are testing.
 
 ~~~
-> php artisan vendor:publish --provider=Websanova\Demo\DemoServiceProvider --tag=config --force
+> php artisan vendor:publish --provider="Websanova\Demo\DemoServiceProvider" --tag=config --force
 ~~~
 
 It requires pretty much no extra effort so it's a good idea to organize these `publishes` methods this way. It provides that extra layer of flexibility during testing as well as for developers using your package. 
